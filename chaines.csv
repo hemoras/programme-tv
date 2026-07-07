@@ -1,0 +1,793 @@
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Radiovision-PTT;26/04/1935;31/07/1935;;France;Généraliste;;État français;Hertzien;Oui;Première émission régulière de télévision française
+Radio-PTT Vision;01/08/1935;03/09/1937;Radiovision-PTT;France;Généraliste;;État français;Hertzien;Oui;
+Radiodiffusion Nationale Télévision;04/09/1937;28/09/1939;Radio-PTT Vision;France;Généraliste;;Radiodiffusion nationale;Hertzien;Oui;
+Fernsehsender Paris;07/05/1943;12/08/1944;;France;Généraliste;;Allemagne;Hertzien;Oui;Chaîne exploitée pendant l'Occupation
+Télévision Française;01/10/1944;08/02/1949;;France;Généraliste;;RTF;Hertzien;Oui;
+RTF Télévision;09/02/1949;03/02/1959;Télévision Française;France;Généraliste;;RTF;Hertzien;Oui;
+RTF Télévision 2;21/12/1963;24/07/1964;;France;Généraliste;;RTF;Hertzien;Oui;Deuxième chaîne expérimentale
+Première chaîne de l'ORTF;25/07/1964;31/12/1974;;France;Généraliste;;ORTF;Hertzien;Oui;
+Deuxième chaîne de l'ORTF;25/07/1964;07/01/1975;;France;Généraliste;;ORTF;Hertzien;Oui;Devient Antenne 2
+Troisième chaîne couleur;31/12/1972;06/01/1975;;France;Généraliste;;ORTF;Hertzien;Oui;Devient FR3
+TF1;06/01/1975;;;France;Généraliste;;TF1 (1975-1987), TF1 SA (1987-);Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+Antenne 2;06/01/1975;06/09/1992;Deuxième chaîne de l'ORTF;France;Généraliste;;France Télévisions;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+France 2;07/09/1992;;Antenne 2;France;Généraliste;;France Télévisions;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+FR3;06/01/1975;06/09/1992;Troisième chaîne couleur;France;Généraliste;;France Télévisions;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+France 3;07/09/1992;;FR3;France;Généraliste;;France Télévisions;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+Canal+;04/11/1984;;;France;Généraliste;;Groupe Canal+;Hertzien,TNT,Câble,Satellite,IPTV;Non;Chaîne payante avec plages en clair
+La Cinq;20/02/1986;12/04/1992;;France;Généraliste;;Fininvest (1986-1990), Hachette (1990-1992);Hertzien,Câble,Satellite,IPTV;Oui;
+TV6;28/02/1986;28/02/1987;;France;Musique;;Publicis, NRJ, Gaumont, Gilbert Gross;Hertzien;Oui;
+M6;01/03/1987;;TV6;France;Généraliste;;Groupe M6;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+La Sept;23/05/1986;29/05/1992;;France;Culture;;La Sept;Hertzien,Satellite,Câble;Oui;
+Arte;30/05/1992;;La Sept;France;Culture;;ARTE GEIE;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+La Cinquième;13/12/1994;06/01/2002;;France;Culture;;France Télévisions;Hertzien,Câble,Satellite,TNT,IPTV;Oui;
+France 5;07/01/2002;;La Cinquième;France;Culture;;France Télévisions;Hertzien,TNT,Câble,Satellite,IPTV;Oui;
+Festival;24/06/1996;30/03/2005;;France;Culture;;France Télévisions;Câble,Satellite,TNT,IPTV;Oui;
+France 4;31/03/2005;;Festival;France;Généraliste;;France Télévisions;TNT,Câble,Satellite,IPTV;Oui;
+France Ô;25/02/2005;24/08/2020;RFO Sat;France;Généraliste;;France Télévisions;Satellite,TNT,IPTV;Oui;
+franceinfo:;01/09/2016;;;France;Information;Information continue;France Télévisions;TNT,Câble,Satellite,IPTV;Oui;
+LCP-Assemblée nationale;20/03/2000;;;France;Parlementaire;;Assemblée nationale;TNT,Câble,Satellite,IPTV;Oui;Partage le canal avec Public Sénat
+Public Sénat;20/03/2000;;;France;Parlementaire;;Sénat;TNT,Câble,Satellite,IPTV;Oui;Partage le canal avec LCP-Assemblée nationale
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+RTL Télévision;23/01/1955;10/09/1995;;Luxembourg;Généraliste;;CLT;Hertzien,Câble,Satellite;Oui;Version francophone
+RTL9;11/09/1995;;RTL Télévision;Luxembourg;Généraliste;;CLT (1995-1997), AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Oui;
+Télé Monte-Carlo;19/11/1954;22/03/2009;;Monaco;Généraliste;;TMC Monte Carlo, TF1 (2005-);Hertzien,Câble,Satellite,TNT,IPTV;Oui;Nom commercial utilisé jusqu'au renommage
+TMC;23/03/2009; ;Télé Monte-Carlo;Monaco;Généraliste;;Groupe TF1;TNT,Câble,Satellite,IPTV;Oui;
+Paris Première;15/12/1986;;;France;Culture;;Groupe M6;Câble,Satellite,TNT,IPTV;Non;Disponible en clair à certaines périodes
+TF6;18/12/2000;31/12/2014;;France;Divertissement;;TPS (2000-2006), Groupe TF1 / Groupe M6 (2006-2014);Satellite,Câble,IPTV;Non;
+Série Club;13/03/1993;;;France;Séries;;Groupe M6, Groupe TF1;Câble,Satellite,IPTV;Non;
+LCI;24/06/1994;;;France;Information;Information continue;Groupe TF1;Câble,Satellite,TNT,IPTV;Oui;Payante jusqu'en 2016
+TV Breizh;01/09/2000;;;France;Généraliste;;Groupe TF1;Câble,Satellite,IPTV;Non;
+Histoire;01/07/1997;;;France;Histoire;;Groupe TF1;Câble,Satellite,IPTV;Non;
+Ushuaïa TV;14/03/2005;;;France;Découverte;Nature;Groupe TF1;Câble,Satellite,IPTV;Non;
+Stylia;27/09/2010;31/12/2017;Odyssée;France;Art de vivre;;Groupe TF1;Câble,Satellite,IPTV;Non;
+Odyssée;13/09/1998;26/09/2010;;France;Documentaire;;Groupe TF1;Câble,Satellite,IPTV;Non;Devient Stylia
+Canal J;23/04/1985;;;France;Jeunesse;;Groupe Canal+ (Lagardère jusqu'en 2013);Câble,Satellite,IPTV;Non;
+TiJi;01/12/2000;;;France;Jeunesse;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Piwi;03/12/2003;31/12/2011;;France;Jeunesse;;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Piwi+
+Piwi+;01/01/2012;;Piwi;France;Jeunesse;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Télétoon;17/12/1996;31/12/2016;;France;Jeunesse;;TPS puis Groupe Canal+;Câble,Satellite,IPTV;Non;
+Télétoon+;01/01/2017;;Télétoon;France;Jeunesse;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Game One;27/09/1998;;;France;Jeux vidéo;;Paramount (anciennement MTV Networks);Câble,Satellite,IPTV;Non;
+Game One Music HD;15/11/2008;30/06/2018;;France;Musique;;Game One;Câble,Satellite;Non;
+MCM;01/07/1989;;;France;Musique;;Groupe MCM, Lagardère, Groupe M6;Câble,Satellite,IPTV;Non;
+MCM Top;19/12/2003;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+MCM Pop;03/07/2012;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+Mezzo;24/03/1998;;;France;Musique;Classique;Les Échos / Canal+;Câble,Satellite,IPTV;Non;
+Mezzo Live HD;01/10/2010;;;France;Musique;Classique;Mezzo;Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Canal+ Vert;31/08/1998;01/11/2003;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Canal multiplex
+Canal+ Bleu;31/08/1998;01/11/2003;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Canal multiplex
+Canal+ Jaune;31/08/1998;01/11/2003;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Canal multiplex
+Canal+ Confort;02/11/2003;20/08/2005;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;
+Canal+ Cinéma;27/04/1996;07/02/2023;;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;Devient Canal+ Cinéma(s)
+Canal+ Cinéma(s);08/02/2023;;Canal+ Cinéma;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Sport;01/11/2003;31/08/2022;;France;Sport;;Groupe Canal+;Satellite,Câble,IPTV;Non;Devient Canal+ Sport 360
+Canal+ Sport 360;31/08/2022;;Canal+ Sport;France;Sport;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Family;20/08/2007;31/08/2021;;France;Jeunesse;Familiale;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Décalé;31/08/2003;;France;Généraliste;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Grand Écran;08/02/2023;;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Box Office;08/02/2023;;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Docs;08/02/2023;;France;Documentaire;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Kids;08/02/2023;;France;Jeunesse;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Live;08/02/2023;;France;Événementielle;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+CinéCinémas;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Marque regroupant plusieurs chaînes
+CinéCinémas Auteur;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Club
+CinéCinémas Classic;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Classic
+CinéCinémas Émotion;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Émotion
+CinéCinémas Famiz;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Famiz
+CinéCinémas Frisson;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Frisson
+CinéCinémas Premier;27/04/1996;29/08/2011;;France;Cinéma;;Groupe Canal+;Satellite,Câble;Non;Devient Ciné+ Premier
+Ciné+ Premier;30/08/2011;;CinéCinémas Premier;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Ciné+ Frisson;30/08/2011;;CinéCinémas Frisson;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Ciné+ Émotion;30/08/2011;;CinéCinémas Émotion;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Ciné+ Famiz;30/08/2011;;CinéCinémas Famiz;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Ciné+ Classic;30/08/2011;;CinéCinémas Classic;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Ciné+ Club;30/08/2011;;CinéCinémas Auteur;France;Cinéma;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Polar+;26/09/2017;;France;Séries;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Comédie !;29/04/1997;31/08/2003;;France;Divertissement;Humour;Groupe Canal+;Câble,Satellite;Non;
+Comédie+;01/09/2003;;Comédie !;France;Divertissement;Humour;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Jimmy;29/04/1990;;France;Séries;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Cuisine+;26/06/2001;26/06/2015;;France;Art de vivre;Cuisine;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient CuisineAZ TV
+Maison+;26/06/2001;;France;Art de vivre;Maison;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète;24/09/1988;25/09/2016;;France;Documentaire;;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Planète+
+Planète+;26/09/2016;;Planète;France;Documentaire;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète+ Aventure;26/09/2016;;Planète Thalassa;France;Documentaire;Nature;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète+ Crime;26/09/2016;;Planète Justice;France;Documentaire;Société;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète+ History;26/09/2016;;Planète Histoire;France;Histoire;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Seasons;13/05/1996;;France;Nature;Chasse et pêche;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Infosport;15/03/1998;13/01/2023;;France;Sport;Information;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Canal+ Sport 360 Info
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+AB1;01/12/1995;;;France;Divertissement;;AB Groupe (1995-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+AB3;06/10/1988;;;Belgique;Généraliste;;AB Groupe (1988-2017), Mediawan Thematics (2017-);Hertzien,Câble,Satellite,IPTV;Oui;
+AB4;03/06/2002;;;Belgique;Jeunesse;;AB Groupe (2002-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Oui;
+AB Moteurs;31/03/1996;;;France;Sport;Sports mécaniques;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Animaux;01/09/1996;;;France;Nature;;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Toute l'Histoire;17/12/1996;;;France;Histoire;;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Encyclopedia;16/12/1997;30/04/2001;;France;Documentaire;;AB Groupe;Câble,Satellite;Non;Devient Escales
+Escales;01/05/2001;30/12/2011;Encyclopedia;France;Découverte;Voyage;AB Groupe;Câble,Satellite,IPTV;Non;
+Chasse et Pêche;13/05/1996;;;France;Nature;Chasse et pêche;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+XXL;13/09/1995;;;France;Adulte;;AB Groupe (1995-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;Chaîne à péage
+Mangas;23/02/1996;;;France;Jeunesse;Animation;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Toutes les Filles TV;31/08/2009;31/12/2013;;France;Divertissement;;AB Groupe;Câble,Satellite,IPTV;Non;
+Science & Vie TV;27/02/2015;;;France;Documentaire;Sciences;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Trek;08/11/2016;;;France;Cinéma;Patrimoine;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Drive In Movie Channel;13/02/2015;;;France;Cinéma;;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Lucky Jack.tv;22/06/2015;;;France;Jeux;;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Crime District;13/12/2019;;;France;Documentaire;Faits divers;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Museum;12/04/2007;;;France;Culture;Arts;SECOM, Mediawan Thematics (2022-);Câble,Satellite,IPTV;Non;
+MyZen TV;01/02/2008;;;France;Art de vivre;Bien-être;Secom;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Disney Channel;22/03/1997;;;France;Jeunesse;;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Channel +1;01/04/2002;;;France;Jeunesse;;The Walt Disney Company;Câble,Satellite,IPTV;Non;Version décalée d'une heure
+Disney Junior;27/05/2011;31/03/2020;Playhouse Disney;France;Jeunesse;Préscolaire;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Playhouse Disney;03/11/2002;26/05/2011;;France;Jeunesse;Préscolaire;The Walt Disney Company;Câble,Satellite,IPTV;Non;Devient Disney Junior
+Disney XD;01/04/2009;01/04/2020;Jetix;France;Jeunesse;;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Fox Kids;01/11/1998;31/12/2004;;France;Jeunesse;;Fox Family Worldwide;Câble,Satellite;Non;Devient Jetix
+Jetix;01/01/2005;31/03/2009;Fox Kids;France;Jeunesse;;The Walt Disney Company;Câble,Satellite,IPTV;Non;Devient Disney XD
+Disney Cinemagic;30/09/2007;08/05/2015;;France;Cinéma;Jeunesse;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Cinema;09/05/2015;31/03/2020;Disney Cinemagic;France;Cinéma;Jeunesse;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Nature TV;2012;2015;;France;Nature;;The Walt Disney Company;IPTV;Non;Diffusion limitée
+Nickelodeon;16/11/2005;;;France;Jeunesse;;Paramount;Câble,Satellite,IPTV;Non;
+Nickelodeon Junior;26/01/2010;19/09/2023;;France;Jeunesse;Préscolaire;Paramount;Câble,Satellite,IPTV;Non;Devient Nick Jr.
+Nick Jr.;20/09/2023;;Nickelodeon Junior;France;Jeunesse;Préscolaire;Paramount;Câble,Satellite,IPTV;Non;
+Nicktoons;22/09/2013;;;France;Jeunesse;Animation;Paramount;Câble,Satellite,IPTV;Non;
+TeenNick;19/11/2014;;;France;Jeunesse;Adolescents;Paramount;Câble,Satellite,IPTV;Non;
+Cartoon Network;17/09/1993;;;France;Jeunesse;Animation;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Boomerang;23/04/2003;;;France;Jeunesse;Animation;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Boomerang +1;2008;2015;;France;Jeunesse;Animation;Warner Bros. Discovery;Câble,Satellite;Non;
+Boomerang HD;2010;2015;;France;Jeunesse;Animation;Warner Bros. Discovery;Câble,Satellite;Non;Nom technique à supprimer en v1.0 ?
+Boomerang Junior;2009;2011;;France;Jeunesse;Préscolaire;Warner Bros. Discovery;IPTV;Non;
+Boomerang +1 HD;2011;2015;;France;Jeunesse;Animation;Warner Bros. Discovery;Satellite;Non;Nom technique à supprimer en v1.0 ?
+Cartoonito;03/04/2023;;;France;Jeunesse;Préscolaire;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Baby TV;17/10/2005;;;France;Jeunesse;Préscolaire;Fox Networks Group;Câble,Satellite,IPTV;Non;
+BabyFirst;2007;;;France;Jeunesse;Préscolaire;Blue Ant Media;Câble,Satellite,IPTV;Non;
+Toonami;11/02/2016;;;France;Jeunesse;Animation;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+J-One;04/10/2013;;;France;Jeunesse;Animation;SEFA Event;Câble,Satellite,IPTV;Non;
+Mangas;23/02/1996;;;France;Jeunesse;Animation;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;Déjà présent dans un lot précédent
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+MTV France;20/06/2000;;;France;Musique;;Paramount;Câble,Satellite,IPTV;Non;
+MTV Hits;01/05/2001;;;France;Musique;;Paramount;Câble,Satellite,IPTV;Non;
+MTV Pulse;17/11/2005;09/10/2020;;France;Musique;;Paramount;Câble,Satellite,IPTV;Non;
+MTV Idol;17/11/2005;09/10/2020;;France;Musique;;Paramount;Câble,Satellite,IPTV;Non;
+MTV Base;01/03/2008;09/10/2020;;France;Musique;;Paramount;Câble,Satellite,IPTV;Non;
+Trace TV;27/04/2003;31/08/2010;;France;Musique;;Trace Partners;Câble,Satellite,IPTV;Non;Devient Trace Urban
+Trace Urban;01/09/2010;;Trace TV;France;Musique;;Trace;Câble,Satellite,IPTV;Non;
+Trace Tropical;28/04/2005;;;France;Musique;;Trace;Câble,Satellite,IPTV;Non;
+Trace Gospel;15/04/2011;;;France;Musique;;Trace;Câble,Satellite,IPTV;Non;
+Trace Latina;15/07/2014;;;France;Musique;;Trace;Câble,Satellite,IPTV;Non;
+Trace Africa;01/06/2011;;;France;Musique;;Trace;Câble,Satellite,IPTV;Non;
+Trace Sport Stars;15/05/2011;;;France;Sport;;Trace;Câble,Satellite,IPTV;Non;
+Mezzo;24/03/1998;;;France;Musique;Classique;Les Échos, Groupe Canal+;Câble,Satellite,IPTV;Non;Déjà présent dans un lot précédent
+Mezzo Live HD;01/10/2010;;;France;Musique;Classique;Les Échos, Groupe Canal+;Satellite,IPTV;Non;À supprimer en v1.0 (version HD)
+MCM;01/07/1989;;;France;Musique;;Lagardère (1989-2019), Groupe M6 (2019-);Câble,Satellite,IPTV;Non;
+MCM Top;19/12/2003;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+MCM Pop;03/07/2012;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+M6 Music;05/03/1998;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+M6 Music Hits;23/01/2005;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+M6 Music Black;10/01/2007;03/01/2012;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;
+M6 Music Club;04/01/2012;;;France;Musique;;Groupe M6;Câble,Satellite,IPTV;Non;Succède à M6 Music Black
+Melody;21/10/2001;;;France;Musique;Patrimoine;Groupe Melody;Câble,Satellite,IPTV;Non;
+RFM TV;20/03/2010;;;France;Musique;;Groupe 1981;Câble,Satellite,IPTV;Non;
+NRJ Hits;01/09/2007;;;France;Musique;;Groupe NRJ;TNT,Satellite,Câble,IPTV;Oui;
+Clubbing TV;2007;;;France;Musique;Électro;Clubbing TV SA;Câble,Satellite,IPTV;Non;
+Luxe.TV;23/06/2006;;;Luxembourg;Art de vivre;Luxe;Luxe.TV;Satellite,Câble,IPTV;Non;
+iConcerts;15/10/2005;;;Luxembourg;Musique;Concerts;iConcerts;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Voyage;01/09/1996;;France;Découverte;Voyage;Groupe TF1 (1996-2004), Fox International Channels (2004-2018), Warner Bros. Discovery (2018-);Câble,Satellite,IPTV;Non;
+National Geographic Channel;01/09/2001;;France;Documentaire;Sciences;National Geographic Partners;Câble,Satellite,IPTV;Non;
+Nat Geo Wild;09/02/2009;;France;Nature;Animalier;National Geographic Partners;Câble,Satellite,IPTV;Non;
+Discovery Channel;1999;;France;Documentaire;;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Discovery Science;2000;;France;Documentaire;Sciences;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Discovery Investigation;2009;;France;Documentaire;Faits divers;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Discovery Turbo;2006;2024;;France;Découverte;Automobile;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Animal Planet;2001;2023;;France;Nature;;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Travel Channel;2008;2020;;France;Découverte;Voyage;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Histoire;01/07/1997;;France;Histoire;;Groupe TF1;Câble,Satellite,IPTV;Non;Déjà présent dans un lot précédent
+Planète A&E;2002;2005;;France;Documentaire;Société;Groupe Canal+;Câble,Satellite;Non;
+Planète Choc;2005;2014;Planète A&E;France;Documentaire;Société;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète No Limit;2003;2016;;France;Documentaire;Aventure;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète Thalassa;2002;2016;;France;Documentaire;Nature;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Planète+ Aventure
+Planète Justice;2007;2016;;France;Documentaire;Justice;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Planète+ Crime
+Planète Histoire;2007;2016;;France;Histoire;;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Planète+ History
+Toute l'Histoire;17/12/1996;;France;Histoire;;Mediawan Thematics;Câble,Satellite,IPTV;Non;Déjà présent
+Animaux;01/09/1996;;France;Nature;;Mediawan Thematics;Câble,Satellite,IPTV;Non;Déjà présent
+Trek;08/11/2016;;France;Cinéma;Patrimoine;Mediawan Thematics;Câble,Satellite,IPTV;Non;Déjà présent
+Maison & Travaux TV;2017;;France;Art de vivre;Maison;Reworld Media;IPTV;Non;
+My Cuisine;2010;2021;;France;Art de vivre;Cuisine;Altice Media;Câble,Satellite,IPTV;Non;
+Kitchen Mania;2011;2015;;France;Art de vivre;Cuisine;AB Groupe;Câble,Satellite;Non;
+Campagnes TV;2017;;France;Découverte;Monde rural;Campagnes TV;Satellite,IPTV;Non;
+MyZen Nature;2022;;France;Nature;Bien-être;Secom;IPTV;Non;
+Love Nature;2015;;Canada;Nature;;Blue Ant Media;Câble,Satellite,IPTV;Non;Version française
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Eurosport France;01/09/1993;;France;Sport;;Eurosport (1993-2015), Discovery (2015-2022), Warner Bros. Discovery (2022-);Câble,Satellite,IPTV;Non;Version française d'Eurosport
+Eurosport 2;10/01/2005;;France;Sport;;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Sport+;26/10/2002;27/06/2015;;France;Sport;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Foot+;27/08/1999;;France;Sport;Football;Groupe Canal+;Satellite,Câble,IPTV;Non;Lancée sous le nom Multivision Foot
+Multivision Foot;27/08/1999;18/08/2002;;France;Sport;Football;Groupe Canal+;Satellite;Non;Devient Foot+
+Rugby+;13/08/2004;;France;Sport;Rugby;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Golf+;04/11/2008;;France;Sport;Golf;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Infosport;15/03/1998;26/08/2008;;France;Sport;Information;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Infosport+
+Infosport+;27/08/2008;12/01/2023;Infosport;France;Sport;Information;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Automoto;14/03/1996;31/12/1998;;France;Sport;Automobile;AB Groupe;Câble,Satellite;Non;
+Motors TV;18/09/2000;28/02/2017;;France;Sport;Sports mécaniques;Motors TV;Câble,Satellite,IPTV;Non;Devient Motorsport.tv
+Motorsport.tv;01/03/2017;;Motors TV;France;Sport;Sports mécaniques;Motorsport Network;IPTV,Streaming;Non;
+Extreme Sports Channel;01/05/1999;;Royaume-Uni;Sport;Sports extrêmes;AMC Networks;Câble,Satellite,IPTV;Non;Version française
+Ma Chaîne Sport;13/10/1998;31/01/2017;;France;Sport;;Groupe MCS;Câble,Satellite,IPTV;Non;
+MCS Extrême;09/10/2007;;France;Sport;Sports extrêmes;Groupe MCS;Câble,Satellite,IPTV;Non;
+MCS Bien-être;2009;2016;;France;Sport;Fitness;Groupe MCS;Câble,Satellite,IPTV;Non;
+beIN SPORTS 1;01/06/2012;;France;Sport;;beIN Media Group;Satellite,Câble,IPTV;Non;
+beIN SPORTS 2;01/06/2012;;France;Sport;;beIN Media Group;Satellite,Câble,IPTV;Non;
+beIN SPORTS 3;17/09/2014;;France;Sport;;beIN Media Group;Satellite,Câble,IPTV;Non;
+ES1;10/01/2018;31/12/2023;;France;Sport;eSport;Webedia;IPTV,Fibre;Non;
+Sport en France;28/05/2019;;France;Sport;;CNOSF;TNT locale,Câble,Satellite,IPTV;Oui;
+Equidia;20/08/1996;31/08/2018;;France;Sport;Hippisme;PMU;Câble,Satellite,IPTV;Non;Scindée en Equidia Live et Equidia Life
+Equidia Live;01/09/2018;;Equidia;France;Sport;Hippisme;PMU;Câble,Satellite,IPTV;Non;
+Equidia Life;01/09/2018;31/12/2019;Equidia;France;Sport;Hippisme;PMU;Câble,Satellite,IPTV;Non;
+OL TV;27/07/2005;29/06/2025;;France;Sport;Club;Olympique Lyonnais;Satellite,Câble,IPTV;Non;
+OM TV;16/01/1999;31/08/2018;;France;Sport;Club;Olympique de Marseille;Câble,Satellite,IPTV;Non;
+Girondins TV;14/08/2008;30/06/2014;;France;Sport;Club;FC Girondins de Bordeaux;Câble,Satellite,IPTV;Non;
+ASSE TV;2005;2011;;France;Sport;Club;AS Saint-Étienne;IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Canal+ Séries;21/09/2013;;;France;Séries;;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Foot;31/08/2022;;;France;Sport;Football;Groupe Canal+;Satellite,Câble,IPTV;Non;
+Canal+ Premier League;11/08/2022;31/08/2022;;France;Sport;Football;Groupe Canal+;Satellite,Câble,IPTV;Non;Chaîne événementielle créée pour le lancement des droits de Premier League
+Canal+ Événement;2004;;;France;Événementielle;;Groupe Canal+;Satellite,Câble,IPTV;Non;Chaîne événementielle utilisée pour les programmes spéciaux
+Canal+ 24/24;15/11/1991;30/08/1998;;France;Généraliste;;Groupe Canal+;Câble;Non;Diffusion intégrale de Canal+ sur le câble
+Canal+ Weekend;04/09/2021;;;France;Généraliste;;Groupe Canal+;Satellite,Câble,IPTV;Non;Déclinaison axée sur les programmes du week-end
+Canal+ Live;08/02/2023;;;France;Événementielle;;Groupe Canal+;Satellite,Câble,IPTV;Non;Chaîne éditorialisée, distincte des flux Canal+ Live numérotés
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+i>Télé;04/11/1999;26/02/2017;;France;Information;Information continue;Groupe Canal+;Câble,Satellite,TNT,IPTV;Oui;Devient CNews
+CNews;27/02/2017;;i>Télé;France;Information;Information continue;Groupe Canal+;TNT,Câble,Satellite,IPTV;Oui;
+Euronews;01/01/1993;;France;Information;Information internationale;Euronews SA;Câble,Satellite,IPTV;Oui;Version française
+BFM TV;28/11/2005;;France;Information;Information continue;RMC BFM;TNT,Câble,Satellite,IPTV;Oui;
+BFM Business;22/11/2010;;France;Économie;Actualité économique;RMC BFM;TNT (IDF),Câble,Satellite,IPTV;Oui;
+La Chaîne Info (LCI Radio Vision);24/06/1994;23/06/1994;;France;Information;Expérimentation;Groupe TF1;Satellite;Non;Première dénomination utilisée avant LCI
+France Info;01/06/2016;31/08/2016;;France;Information;Préfiguration;France Télévisions;TNT;Oui;Nom utilisé avant l'adoption officielle de franceinfo:
+Africanews;20/04/2016;;France;Information;Internationale;Euronews;Satellite,IPTV;Oui;Version francophone
+France 24;06/12/2006;;France;Information;Information internationale;France Médias Monde;Satellite,Câble,IPTV,TNT;Oui;Version française
+France 24 Arabic;02/04/2010;;France;Information;Internationale;France Médias Monde;Satellite,IPTV;Oui;
+France 24 English;06/12/2006;;France;Information;Internationale;France Médias Monde;Satellite,IPTV;Oui;
+TV5;02/01/1984;01/01/2006;;France;Généraliste;Francophonie;TV5 Monde;Satellite,Câble;Oui;Devient TV5MONDE
+TV5MONDE;02/01/2006;;TV5;France;Généraliste;Francophonie;TV5MONDE;Satellite,Câble,IPTV;Oui;
+Medi 1 Sat;18/12/2006;31/12/2015;;Maroc;Information;Francophone;Medi1;Satellite;Oui;Distribuée en France
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Téva;06/10/1996;;;France;Divertissement;Féminine;Groupe M6;Câble,Satellite,IPTV;Non;
+Fun TV;02/09/1997;27/08/2003;;France;Musique;;Groupe M6;Câble,Satellite;Non;
+Fun Radio Vision;01/09/2003;31/08/2008;Fun TV;France;Musique;;Groupe M6;Câble,Satellite;Non;
+Clubbing TV;2007;;;France;Musique;Électro;Clubbing TV SA (distribution Groupe M6 selon opérateurs);Câble,Satellite,IPTV;Non;À vérifier : ne pas considérer comme chaîne du Groupe M6
+M6 Boutique & Co;2009;;;France;Téléachat;;Groupe M6;Câble,Satellite,IPTV;Oui;
+M6 Boutique la Chaîne;1998;2009;;France;Téléachat;;Groupe M6;Câble,Satellite;Oui;Devient M6 Boutique & Co
+Best of Shopping;2010;;;France;Téléachat;;Home Shopping Service;TNT locale,Câble,Satellite,IPTV;Oui;
+Girondins TV;14/08/2008;30/06/2014;;France;Sport;Club;Groupe M6 (coproduction);Câble,Satellite,IPTV;Non;À vérifier, déjà présent dans un lot précédent
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+KTO;13/12/1999;;;France;Religieuse;Catholique;KTO;Câble,Satellite,IPTV,TNT;Oui;
+Canal Académie;2005;2021;;France;Culture;Éducation;Institut de France;IPTV;Oui;Chaîne IP uniquement
+Demain !;31/03/1997;30/06/2004;;France;Économie;Emploi;GIE Demain !;Câble,Satellite;Oui;
+Vivolta;10/12/2007;31/12/2014;;France;Art de vivre;Magazine;Vivolta SA;Câble,Satellite,IPTV;Non;
+Ma Chaîne Étudiante;2009;2015;;France;Éducation;Enseignement;MCE;Câble,Satellite,IPTV;Oui;
+MCE TV;2018;;;France;Divertissement;Jeunes adultes;MCE;IPTV;Oui;
+Astrocenter TV;2007;2019;;France;Divertissement;Ésotérisme;Astrocenter;Câble,Satellite,IPTV;Non;
+Liberty TV;1995;2012;;France;Téléachat;Voyages;Liberty TV;Satellite,Câble;Oui;
+Téléshopping;1987;;;France;Téléachat;;Groupe TF1;TNT,Câble,Satellite,IPTV;Oui;
+Euroshopping;1988;2008;;France;Téléachat;;M6 / HSS;Hertzien,Câble;Oui;
+Ideal World;2010;2023;;France;Téléachat;;Ideal Shopping Direct;Satellite,Câble,IPTV;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+TPS Star;12/05/2001;04/05/2012;;France;Cinéma;;TPS (2001-2007), Groupe Canal+ (2007-2012);Satellite,IPTV;Non;
+TPS Homecinéma;01/10/2003;31/12/2008;;France;Cinéma;;TPS;Satellite;Non;
+TPS Cinéstar;16/12/1996;31/12/2008;;France;Cinéma;;TPS;Satellite;Non;
+TPS Cinéfamily;26/04/2005;31/12/2008;;France;Cinéma;Jeunesse;TPS;Satellite;Non;
+TPS Cinécomedy;26/04/2005;31/12/2008;;France;Cinéma;Comédie;TPS;Satellite;Non;
+TPS Cinéculte;26/04/2005;31/12/2008;;France;Cinéma;Patrimoine;TPS;Satellite;Non;
+TPS Cinétoile;16/12/1996;31/12/2008;;France;Cinéma;;TPS;Satellite;Non;
+TPS Cinéclub;26/04/2005;31/12/2008;;France;Cinéma;Classiques;TPS;Satellite;Non;
+TPS Cinéextrême;26/04/2005;31/12/2008;;France;Cinéma;Fantastique;TPS;Satellite;Non;
+TPS Foot;16/08/2005;31/12/2008;;France;Sport;Football;TPS;Satellite;Non;
+Multivision;16/12/1996;31/12/2008;;France;Cinéma;Paiement à la séance;TPS;Satellite;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+TPS Jeunesse;2003;31/12/2008;;France;Jeunesse;;TPS;Satellite;Non;
+TPS Cinéma;1996;2003;;France;Cinéma;;TPS;Satellite;Non;Nom générique initial des chaînes cinéma TPS, à documenter précisément en v1.0
+TPS Sport;1996;2001;;France;Sport;;TPS;Satellite;Non;Chaîne des débuts de TPS, historique à vérifier
+TPS Sport 2;2002;31/12/2008;;France;Sport;;TPS;Satellite;Non;
+TPS Football;2002;2005;;France;Sport;Football;TPS;Satellite;Non;Prédécesseur de TPS Foot
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Sci Fi;15/11/2005;05/07/2010;;France;Séries;Science-fiction;NBCUniversal;Câble,Satellite,IPTV;Non;Devient Syfy
+Syfy;06/07/2010;;;France;Séries;Science-fiction;NBCUniversal;Câble,Satellite,IPTV;Non;
+13ème Rue;13/11/1997;;;France;Séries;Policier;NBCUniversal;Câble,Satellite,IPTV;Non;
+Studio Universal;01/02/2003;31/01/2010;;France;Cinéma;;NBCUniversal;Câble,Satellite,IPTV;Non;Devient Universal Channel
+Universal Channel;01/02/2010;31/12/2022;Studio Universal;France;Séries;;NBCUniversal;Câble,Satellite,IPTV;Non;
+E! Entertainment;2004;31/12/2022;;France;Divertissement;People;NBCUniversal;Câble,Satellite,IPTV;Non;
+DreamWorks Channel;2015;;;France;Jeunesse;Animation;NBCUniversal;Câble,Satellite,IPTV;Non;
+CNBC Europe;1989;;;Royaume-Uni;Économie;Information;NBCUniversal;Satellite,Câble,IPTV;Non;Version internationale distribuée en France
+MSNBC Europe;1996;2005;;Royaume-Uni;Information;Internationale;NBCUniversal;Satellite,Câble;Non;
+Extreme Sports Channel;1999;;;Royaume-Uni;Sport;Sports extrêmes;AMC Networks;Câble,Satellite,IPTV;Non;Version française distribuée en France
+Nautical Channel;2009;;;Italie;Sport;Sports nautiques;Nautical Channel;Satellite,Câble,IPTV;Non;Version française
+Chasse et Pêche;1996;;;France;Documentaire;Nature;Mediawan Thematics;Câble,Satellite,IPTV;Non;Nom à harmoniser avec les premiers lots si nécessaire
+Escales;1998;08/11/2016;;France;Découverte;Voyage;AB Groupe (1998-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;Devient Trek
+Stylia;30/09/2007;31/12/2013;Odyssée;France;Art de vivre;Féminine;Groupe TF1;Câble,Satellite,IPTV;Non;
+Planète Juniors;2003;2010;;France;Jeunesse;Documentaire;Groupe Canal+ / France Télévisions;Câble,Satellite,IPTV;Non;
+Foot School TV;2005;2011;;France;Sport;Football;Foot School TV;Satellite,ADSL;Non;
+Bandiagara;2005;2008;;France;Jeunesse;Afrique;TPS;Satellite;Non;
+Météo Express;1996;2008;;France;Information;Météo;TPS;Satellite;Oui;
+La Chaîne Météo;1995;;;France;Information;Météo;La Chaîne Météo;Câble,Satellite,IPTV;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Fox;05/10/2008;30/06/2020;;France;Séries;;Fox Networks Group (2008-2019), The Walt Disney Company (2019-2020);Câble,Satellite,IPTV;Non;
+Fox Life;01/10/2004;31/12/2017;;France;Séries;Divertissement;Fox Networks Group;Câble,Satellite,IPTV;Non;
+Voyage HD;2008;2018;;France;Découverte;Voyage;Fox International Channels;Câble,Satellite;Non;À supprimer en v1.0 (déclinaison HD)
+Nat Geo People;2011;2017;Adventure One;France;Documentaire;Découverte;National Geographic Partners;Câble,Satellite,IPTV;Non;
+Adventure One;2007;2011;;France;Documentaire;Aventure;National Geographic Partners;Câble,Satellite;Non;
+Nat Geo Music;2007;2009;;France;Musique;;National Geographic Partners;Satellite;Non;
+Viceland;19/11/2016;29/02/2024;;France;Documentaire;Société;Vice Media;Câble,Satellite,IPTV;Non;
+Vice TV;01/03/2024;;Viceland;France;Documentaire;Société;Vice Media;Câble,Satellite,IPTV;Non;
+Sony Entertainment Television;1996;2012;;France;Séries;;Sony Pictures Television;Câble,Satellite;Non;
+Sony Movie Channel;2012;2021;;France;Cinéma;;Sony Pictures Television;Câble,Satellite,IPTV;Non;
+AXN;1998;;;France;Séries;Action;Sony Pictures Television;Câble,Satellite,IPTV;Non;
+Animax;2007;2013;;France;Jeunesse;Animation japonaise;Sony Pictures Television;Câble,Satellite;Non;
+Crime District;13/12/2013;;;France;Documentaire;Faits divers;A&E Television Networks / Mediawan;Câble,Satellite,IPTV;Non;
+MyZen TV;01/09/2008;;;France;Art de vivre;Bien-être;Secom;Câble,Satellite,IPTV;Non;
+Museum TV;2017;;;France;Culture;Arts;Secom;Câble,Satellite,IPTV;Non;
+Fashion TV Paris;1997;;;France;Mode;;Fashion TV;Satellite,Câble,IPTV;Non;
+FashionBox;2012;;;Luxembourg;Mode;;SPI International;Câble,Satellite,IPTV;Non;
+DocuBox;2011;;;Luxembourg;Documentaire;;SPI International;Câble,Satellite,IPTV;Non;
+FightBox;2012;;;Luxembourg;Sport;Sports de combat;SPI International;Câble,Satellite,IPTV;Non;
+Fast&FunBox;2012;;;Luxembourg;Sport;Sports extrêmes;SPI International;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+RTL TVI;12/09/1987;;;Belgique;Généraliste;;RTL Belgium;Hertzien,Câble,Satellite,IPTV;Oui;
+Club RTL;24/09/1995;;;Belgique;Généraliste;;RTL Belgium;Câble,Satellite,IPTV;Oui;
+Plug TV;13/02/2004;03/01/2021;;Belgique;Divertissement;;RTL Belgium;Câble,Satellite,IPTV;Oui;Devient Plug RTL
+Plug RTL;04/01/2021;31/08/2023;Plug TV;Belgique;Divertissement;;RTL Belgium;Câble,Satellite,IPTV;Oui;Devient RTL Plug
+RTL Plug;01/09/2023;Plug RTL;Belgique;Divertissement;;RTL Belgium;Câble,Satellite,IPTV;Oui;
+RTL-TVi;1987;12/09/1987;;Belgique;Généraliste;;RTL Belgium;Hertzien;Oui;Appellation utilisée au lancement, à vérifier
+RTL Club;01/09/2023;Club RTL;Belgique;Généraliste;;RTL Belgium;Câble,Satellite,IPTV;Oui;Nouveau nom commercial
+Bel RTL TV;2006;2010;;Belgique;Musique;;RTL Belgium;IPTV;Oui;
+AB3;06/10/2001;;;Belgique;Généraliste;;Mediawan;Hertzien,Câble,Satellite,IPTV;Oui;
+AB4;01/10/2008;;;Belgique;Cinéma;Séries;Mediawan;Câble,Satellite,IPTV;Oui;
+ABXplore;14/12/2017;ABXplore;Belgique;Documentaire;;Mediawan;Câble,Satellite,IPTV;Oui;
+ABXplore;14/12/2017;;;Belgique;Documentaire;;Mediawan;Câble,Satellite,IPTV;Oui;
+La Une;1953;29/09/2016;;Belgique;Généraliste;;RTBF;Hertzien,Câble,Satellite,IPTV;Oui;Devient La Une (nouvelle identité graphique) puis Tipik ? À vérifier
+La Deux;26/03/1977;06/09/2020;;Belgique;Généraliste;;RTBF;Hertzien,Câble,Satellite,IPTV;Oui;Devient Tipik
+La Trois;30/11/2007;08/01/2020;;Belgique;Culture;;RTBF;Hertzien,Câble,Satellite,IPTV;Oui;
+Tipik;07/09/2020;;;Belgique;Généraliste;;RTBF;Hertzien,Câble,Satellite,IPTV;Oui;
+RTBF Sat;2001;2019;;Belgique;Généraliste;International;RTBF;Satellite;Oui;
+BX1;20/07/1985;;;Belgique;Locale;Bruxelles;BX1;Câble,IPTV;Oui;À supprimer en v1.0 selon nos règles (chaîne locale)
+Canal Z;22/05/1999;;;Belgique;Économie;;Mediafin;Câble,Satellite,IPTV;Oui;Version francophone
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+TSR 1;01/11/1954;28/02/2012;;Suisse;Généraliste;;SRG SSR;Hertzien,Câble,Satellite,IPTV;Oui;Devient RTS Un
+RTS Un;29/02/2012;;TSR 1;Suisse;Généraliste;;SRG SSR;Hertzien,Câble,Satellite,IPTV;Oui;
+TSR 2;01/09/1997;28/02/2012;;Suisse;Généraliste;;SRG SSR;Hertzien,Câble,Satellite,IPTV;Oui;Devient RTS Deux
+RTS Deux;29/02/2012;;TSR 2;Suisse;Généraliste;;SRG SSR;Hertzien,Câble,Satellite,IPTV;Oui;
+Télévision Suisse Romande;1954;28/02/2012;;Suisse;Institutionnelle;;SRG SSR;Hertzien;Oui;Marque institutionnelle, à confirmer si conservée dans la base
+Rouge TV;2008;;;Suisse;Musique;;Rouge FM;Câble,IPTV;Oui;
+Carac TV;2014;;;Suisse;Divertissement;;Carac;IPTV;Oui;
+TVM3;01/05/2004;;;Suisse;Musique;;Media One Group;Câble,Satellite,IPTV;Oui;
+La Télé;01/09/2009;;;Suisse;Régionale;;La Télé;TNT,Câble,IPTV;Oui;À supprimer en v1.0 (chaîne régionale)
+Léman Bleu;1996;;;Suisse;Locale;;Léman Bleu;Câble,IPTV;Oui;À supprimer en v1.0 (chaîne locale)
+Canal Alpha;1987;;;Suisse;Régionale;;Canal Alpha;Câble,IPTV;Oui;À supprimer en v1.0 (chaîne régionale)
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Télé Luxembourg;23/01/1955;03/09/1982;;Luxembourg;Généraliste;;CLT;Hertzien;Oui;Devient RTL Télévision
+RTL Télévision;04/09/1982;10/09/1995;Télé Luxembourg;Luxembourg;Généraliste;;CLT;Hertzien,Câble,Satellite;Oui;Devient RTL9
+RTL9;11/09/1995;;;Luxembourg;Généraliste;;CLT (1995-1997), AB Groupe (1997-2017), Mediawan Thematics (2017-);Hertzien,Câble,Satellite,IPTV;Oui;
+RTL Shop;1997;2009;;Luxembourg;Téléachat;;CLT-UFA;Satellite,Câble;Oui;
+RTL Lëtzebuerg;1991;;;Luxembourg;Généraliste;;RTL Luxembourg;Hertzien,Câble,Satellite,IPTV;Oui;Principalement en luxembourgeois
+Den 2. RTL;2004;2020;;Luxembourg;Généraliste;;RTL Luxembourg;TNT,Câble,IPTV;Oui;
+T.TV;2007;2014;;Luxembourg;Économie;Information;Saint-Paul Luxembourg;IPTV;Oui;
+Chamber TV;2001;;;Luxembourg;Institutionnelle;Parlement;Chambre des députés du Luxembourg;IPTV;Oui;
+Monte-Carlo TMC;18/11/1954;31/08/1988;;Monaco;Généraliste;;Télé Monte-Carlo;Hertzien;Oui;Nom historique à confirmer
+Télé Monte-Carlo;01/09/1988;31/12/2009;Monte-Carlo TMC;Monaco;Généraliste;;TMC Monte Carlo;Hertzien,Câble,Satellite;Oui;Devient TMC
+Monaco Info;01/07/1995;;;Monaco;Information;;Gouvernement Princier;TNT,Câble,IPTV;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+CinéCinémas;26/04/1996;26/08/2011;;France;Cinéma;;MultiThématiques;Câble,Satellite,IPTV;Non;Marque commerciale
+CinéCinémas Auteur;26/04/1996;26/08/2011;;France;Cinéma;Auteur;MultiThématiques;Câble,Satellite,IPTV;Non;
+CinéCinémas Émotion;26/04/1996;26/08/2011;;France;Cinéma;Drame;MultiThématiques;Câble,Satellite,IPTV;Non;
+CinéCinémas Frisson;26/04/1996;26/08/2011;;France;Cinéma;Fantastique;MultiThématiques;Câble,Satellite,IPTV;Non;
+CinéCinémas Classic;26/04/1996;26/08/2011;;France;Cinéma;Patrimoine;MultiThématiques;Câble,Satellite,IPTV;Non;
+CinéCinémas Star;26/04/1996;26/08/2011;;France;Cinéma;Grands succès;MultiThématiques;Câble,Satellite,IPTV;Non;
+Ciné+ Premier;27/08/2011;;;France;Cinéma;;Groupe Canal+;Câble,Satellite,IPTV;Non;Succède à CinéCinémas
+Ciné+ Émotion;27/08/2011;08/04/2024;CinéCinémas Émotion;France;Cinéma;Drame;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Frisson;27/08/2011;;CinéCinémas Frisson;France;Cinéma;Fantastique;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Classic;27/08/2011;;CinéCinémas Classic;France;Cinéma;Patrimoine;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Club;27/08/2011;;CinéCinémas Auteur;France;Cinéma;Auteur;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Famiz;09/04/2024;Ciné+ Family;France;Cinéma;Jeunesse;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Family;27/08/2011;08/04/2024;CinéCinémas Star;France;Cinéma;Familial;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ Festival;27/08/2011;08/04/2024;;France;Cinéma;Festival;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Ciné+ OCS;09/04/2024;;;France;Cinéma;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Orange Ciné Max;13/11/2008;11/07/2012;;France;Cinéma;;Orange;ADSL,Fibre,Satellite;Non;Devient OCS Max
+Orange Ciné Happy;13/11/2008;11/07/2012;;France;Cinéma;Familial;Orange;ADSL,Fibre,Satellite;Non;Devient OCS Happy
+Orange Ciné Choc;13/11/2008;11/07/2012;;France;Cinéma;Action;Orange;ADSL,Fibre,Satellite;Non;Devient OCS Choc
+Orange Ciné Géants;13/11/2008;11/07/2012;;France;Cinéma;Patrimoine;Orange;ADSL,Fibre,Satellite;Non;Devient OCS Géants
+Orange Ciné Novo;13/11/2008;11/07/2012;;France;Cinéma;Auteur;Orange;ADSL,Fibre,Satellite;Non;Devient OCS Novo
+Orange Sport Info;13/11/2008;31/05/2012;;France;Sport;Information;Orange;ADSL,Fibre,Satellite;Non;
+Orange Sport;13/11/2008;31/05/2012;;France;Sport;;Orange;ADSL,Fibre,Satellite;Non;
+OCS Max;12/07/2012;08/04/2024;Orange Ciné Max;France;Cinéma;;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS Happy;12/07/2012;08/04/2024;Orange Ciné Happy;France;Cinéma;Familial;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS Choc;12/07/2012;08/04/2024;Orange Ciné Choc;France;Cinéma;Action;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS Géants;12/07/2012;08/04/2024;Orange Ciné Géants;France;Cinéma;Patrimoine;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS Novo;12/07/2012;08/04/2024;Orange Ciné Novo;France;Cinéma;Auteur;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS City;12/07/2012;08/04/2024;;France;Séries;;OCS;ADSL,Fibre,Câble,Satellite,IPTV;Non;
+OCS;09/04/2024;;;France;Cinéma;Séries;Groupe Canal+;ADSL,Fibre,Câble,Satellite,IPTV;Non;Nouvelle marque unique
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+TCM;1999;1999;;France;Cinéma;Patrimoine;Turner Broadcasting System;Câble,Satellite;Non;Devient TCM Cinéma
+TCM Cinéma;2000;;;France;Cinéma;Patrimoine;Turner Broadcasting System (2000-2022), Warner Bros. Discovery (2022-);Câble,Satellite,IPTV;Non;
+Paramount Channel;05/09/2013;13/12/2022;;France;Cinéma;;Paramount;TNT,Câble,Satellite,IPTV;Oui;
+Paramount Network;14/12/2022;;Paramount Channel;France;Divertissement;Séries;Paramount;TNT,Câble,Satellite,IPTV;Oui;
+MGM Channel;2001;2014;;France;Cinéma;;Metro-Goldwyn-Mayer;Câble,Satellite,IPTV;Non;
+Sundance Channel;2009;2018;;France;Cinéma;Auteur;AMC Networks;Câble,Satellite,IPTV;Non;
+Action;13/09/1996;;;France;Cinéma;Action;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Ciné FX;01/07/1998;;;France;Cinéma;Fantastique;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Eurochannel;1994;;;France;Cinéma;Cinéma européen;Eurochannel;Câble,Satellite,IPTV;Non;
+Drive-in Movie Channel;2006;2016;;France;Cinéma;Patrimoine;Drive-in Movie Channel;Câble,Satellite,IPTV;Non;
+Silver;2006;2015;;France;Cinéma;Seniors;Silver TV;Câble,Satellite,IPTV;Non;
+ShortsTV;2007;;;France;Cinéma;Courts métrages;Shorts International;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+AB Sat;16/12/1996;;;France;Services;Bouquet;AB Groupe;Satellite;Non;À conserver ou non selon nos règles (bouquet et non chaîne)
+AB1;01/09/1997;;;France;Divertissement;;AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+AB Moteurs;31/03/1996;;;France;Sport;Automobile;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Animaux;01/09/1996;;;France;Documentaire;Nature;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Toute l'Histoire;01/10/2006;31/12/2006;La Chaîne Histoire;France;Documentaire;Histoire;AB Groupe (2006-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+La Chaîne Histoire;13/01/1997;30/09/2006;;France;Documentaire;Histoire;AB Groupe;Câble,Satellite;Non;
+Encyclopédia;13/01/1997;29/06/2007;;France;Documentaire;Sciences;AB Groupe;Câble,Satellite;Non;Devient Encyclo
+Encyclo;30/06/2007;31/08/2018;Encyclopédia;France;Documentaire;Sciences;AB Groupe (2007-2017), Mediawan Thematics (2017-2018);Câble,Satellite,IPTV;Non;
+Science & Vie TV;26/02/2019;;;France;Documentaire;Sciences;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Lucky Jack.tv;13/10/2010;31/12/2015;;France;Jeux;Poker;AB Groupe;Câble,Satellite,IPTV;Non;
+XXL;13/09/1996;;;France;Adulte;;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Mangas;23/03/1998;;;France;Jeunesse;Animation japonaise;AB Groupe (1998-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Toute l'Histoire HD;2008;;;France;Documentaire;Histoire;AB Groupe;Câble,Satellite;Non;À supprimer en v1.0 (déclinaison HD)
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Motors TV;18/09/2000;28/02/2017;;France;Sport;Sports mécaniques;Motors TV;Câble,Satellite,IPTV;Non;
+Motorsport.tv;01/03/2017;;;France;Sport;Sports mécaniques;Motorsport Network;Câble,Satellite,IPTV;Non;Succède à Motors TV
+Auto Moto;08/09/2010;;;France;Sport;Automobile;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Mécanic TV;2011;2014;;France;Documentaire;Automobile;Mécanic TV;IPTV;Non;
+Campagnes TV;2005;;;France;Découverte;Monde rural;Campagnes TV;Câble,Satellite,IPTV;Non;
+Seasons;13/09/1996;;;France;Sport;Chasse et pêche;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Nature TV;2005;2012;;France;Documentaire;Nature;Nature TV;Câble,Satellite;Non;
+Nautic Channel;2007;2012;;France;Sport;Nautisme;Nautic Channel;Satellite,Câble;Non;
+Ma Chaîne Sport;09/10/2007;31/01/2012;;France;Sport;Multisports;Ma Chaîne Sport;Câble,Satellite,IPTV;Non;
+MCS Extrême;2007;2012;;France;Sport;Sports extrêmes;Ma Chaîne Sport;Câble,Satellite;Non;
+MCS Bien-être;2009;2015;;France;Art de vivre;Bien-être;Ma Chaîne Sport;Câble,Satellite;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+MTV France;20/06/2000;;;France;Musique;;MTV Networks (2000-2011), ViacomCBS (2011-2022), Paramount (2022-);Câble,Satellite,IPTV;Non;
+MTV Hits;01/05/2001;;;France;Musique;Clips;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Pulse;2001;2011;;France;Musique;Pop-Rock;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Idol;2001;2011;;France;Musique;Variétés;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Base;2005;;;France;Musique;Hip-hop / R&B;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Dance;2001;2015;;France;Musique;Dance;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Rocks;2001;2015;;France;Musique;Rock;MTV Networks;Câble,Satellite,IPTV;Non;
+MTV Music 24;2007;;;Royaume-Uni;Musique;;MTV Networks;Satellite,Câble,IPTV;Non;Version européenne
+VH1 Europe;1995;;;Royaume-Uni;Musique;Variétés;MTV Networks;Satellite,Câble,IPTV;Non;
+VH1 Classic Europe;1999;2020;;Royaume-Uni;Musique;Patrimoine;MTV Networks;Satellite,Câble,IPTV;Non;
+MTV Live HD;2008;;;Royaume-Uni;Musique;Concerts;MTV Networks;Satellite,Câble,IPTV;Non;À supprimer en v1.0 (déclinaison HD)
+Nick Music;2016;;;France;Musique;Jeunesse;Paramount;Câble,Satellite,IPTV;Non;
+BET France;17/11/2015;;;France;Divertissement;Culture afro-américaine;Paramount;Câble,Satellite,IPTV;Non;
+BET;1980;;;États-Unis;Divertissement;;Paramount;Satellite,Câble,IPTV;Non;Version internationale distribuée en France
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Piwi;18/12/1998;02/02/2011;;France;Jeunesse;Préscolaire;AB Groupe (1998-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Piwi+;03/02/2011;;Piwi;France;Jeunesse;Préscolaire;AB Groupe (2011-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Canal J;15/12/1985;;;France;Jeunesse;;Groupe Canal+ (1985-2001), Lagardère Active (2001-2014), M6 (2014-);Câble,Satellite,IPTV;Non;
+Canal J Afrique;15/06/2012;;;France;Jeunesse;;Lagardère Active;Satellite;Non;À supprimer en v1.0 (version africaine)
+Tiji;23/12/2000;;;France;Jeunesse;Préscolaire;Lagardère Active;Câble,Satellite,IPTV;Non;
+Télétoon;17/12/1996;31/12/2002;;France;Jeunesse;Animation;Télétoon SA;Câble,Satellite;Non;Devient Télétoon+
+Télétoon+;01/01/2003;;;France;Jeunesse;Animation;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Télétoon 1;2005;2011;;France;Jeunesse;Animation;Groupe Canal+;Satellite;Non;Canal de multiplex, à vérifier
+Boomerang;23/04/2003;;;France;Jeunesse;Animation;Turner Broadcasting;Câble,Satellite,IPTV;Non;
+Cartoon Network;24/09/1993;;;France;Jeunesse;Animation;Turner Broadcasting;Câble,Satellite,IPTV;Non;Version française
+Toonami;11/02/2016;;;France;Jeunesse;Animation;Turner Broadcasting;Câble,Satellite,IPTV;Non;
+Boomerang +1;2009;;;France;Jeunesse;Animation;Turner Broadcasting;Câble,Satellite;Non;À supprimer en v1.0 (timeshift)
+Cartoonito;03/04/2023;;;France;Jeunesse;Préscolaire;Warner Bros. Discovery;Câble,Satellite,IPTV;Non;
+Baby TV;2005;;;France;Jeunesse;Préscolaire;Fox Networks Group;Câble,Satellite,IPTV;Non;
+BabyFirst;2006;;;France;Jeunesse;Préscolaire;BabyFirst;Câble,Satellite,IPTV;Non;
+KidsCo;2007;2014;;France;Jeunesse;Animation;KidsCo;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Jimmy;29/11/1990;;;France;Divertissement;Séries;MultiThématiques (1990-2014), Groupe Canal+ (2014-2023);Câble,Satellite,IPTV;Non;
+Comédie !;29/11/1997;03/09/2003;;France;Humour;;MultiThématiques;Câble,Satellite;Non;Devient Comédie+
+Comédie+;04/09/2003;;;France;Humour;;MultiThématiques (2003-2014), Groupe Canal+ (2014-);Câble,Satellite,IPTV;Non;
+Cuisine TV;08/09/2001;02/11/2011;;France;Art de vivre;Cuisine;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Cuisine+
+Cuisine+;03/11/2011;26/06/2018;Cuisine TV;France;Art de vivre;Cuisine;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Maison TV;08/09/2001;02/11/2011;;France;Art de vivre;Habitat;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Maison+
+Maison+;03/11/2011;30/06/2021;Maison TV;France;Art de vivre;Habitat;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète;24/09/1988;26/08/2011;;France;Documentaire;;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Planète+
+Planète+;27/08/2011;;;France;Documentaire;;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète Justice;13/11/2007;26/08/2011;;France;Documentaire;Justice;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Planète+ Justice
+Planète+ Justice;27/08/2011;30/06/2018;Planète Justice;France;Documentaire;Justice;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète Thalassa;26/09/2007;26/08/2011;;France;Documentaire;Mer;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Planète+ Thalassa
+Planète+ Thalassa;27/08/2011;30/06/2018;Planète Thalassa;France;Documentaire;Mer;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Planète No Limit;26/09/2007;26/08/2011;;France;Documentaire;Aventure;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Planète+ A&E
+Planète+ A&E;27/08/2011;30/06/2018;Planète No Limit;France;Documentaire;Aventure;Groupe Canal+;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+MCM;1989;;;France;Musique;;Lagardère Active;Câble,Satellite,IPTV;Non;
+MCM Pop;2003;2014;;France;Musique;Pop;Lagardère Active;Câble,Satellite,IPTV;Non;
+MCM Top;2003;2014;;France;Musique;Top clips;Lagardère Active;Câble,Satellite,IPTV;Non;
+MCM Belgique;2001;2015;;Belgique;Musique;;Lagardère Active;Câble,Satellite;Oui;Version belge francophone
+Virgin 17;31/10/2005;31/08/2010;Europe 2 TV;France;Musique;;Lagardère Active (2005-2010), Bolloré Média (2010);TNT,Câble,Satellite,IPTV;Oui;
+Europe 2 TV;17/10/2005;30/10/2005;;France;Musique;;Lagardère Active;TNT,Câble,Satellite,IPTV;Oui;
+June;23/11/2009;08/01/2013;Filles TV;France;Divertissement;Féminine;Lagardère Active;Câble,Satellite,IPTV;Non;
+Filles TV;01/09/2006;22/11/2009;;France;Divertissement;Féminine;Lagardère Active;Câble,Satellite,IPTV;Non;
+Elle Girl TV;20/09/2001;31/08/2006;;France;Divertissement;Féminine;Lagardère Active;Câble,Satellite;Non;
+RFM TV;20/03/2010;;;France;Musique;;Groupe M6 (2010-2013), Lagardère Active (2013-2018), Groupe 1981 (2018-);Câble,Satellite,IPTV;Oui;
+Mezzo;1996;;;France;Culture;Musique classique;Les Échos / Groupe Canal+;Câble,Satellite,IPTV;Non;
+Mezzo Live HD;2010;;;France;Culture;Concerts;Les Échos / Groupe Canal+;Câble,Satellite,IPTV;Non;À supprimer en v1.0 (déclinaison HD)
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Playhouse Disney;01/04/2002;13/02/2011;;France;Jeunesse;Préscolaire;The Walt Disney Company;Câble,Satellite,IPTV;Non;Devient Disney Junior
+Disney Junior;14/02/2011;;;France;Jeunesse;Préscolaire;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Cinemagic;30/09/2007;08/05/2015;;France;Cinéma;Jeunesse;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Cinema;09/05/2015;31/03/2020;Disney Cinemagic;France;Cinéma;Jeunesse;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney XD;02/04/2009;01/04/2020;Jetix;France;Jeunesse;Animation;The Walt Disney Company;Câble,Satellite,IPTV;Non;
+Disney Channel +1;2002;;;France;Jeunesse;Animation;The Walt Disney Company;Câble,Satellite;Non;À supprimer en v1.0 (timeshift)
+Disney XD +1;2009;2020;;France;Jeunesse;Animation;The Walt Disney Company;Câble,Satellite;Non;À supprimer en v1.0 (timeshift)
+Disney Junior +1;2011;;;France;Jeunesse;Préscolaire;The Walt Disney Company;Câble,Satellite;Non;À supprimer en v1.0 (timeshift)
+Disney Channel Pop Pick;2003;2007;;France;Jeunesse;Animation;The Walt Disney Company;Câble,Satellite;Non;Chaîne événementielle, à vérifier
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Equidia;20/01/1999;;;France;Sport;Hippisme;PMU (1999-2002), France Galop / LeTROT (2002-);Câble,Satellite,IPTV,TNT;Oui;
+Equidia Live;20/01/2018;Equidia;France;Sport;Courses hippiques;France Galop / LeTROT;Câble,Satellite,IPTV;Oui;Issue de la scission d'Equidia
+Equidia Life;20/01/2018;;;France;Art de vivre;Équitation;France Galop / LeTROT;Câble,Satellite,IPTV;Oui;
+Canal PMU;2001;2011;;France;Sport;Paris hippiques;PMU;Satellite,IPTV;Oui;
+Infosport;16/11/1998;25/08/2008;;France;Sport;Information;Groupe Canal+;Câble,Satellite,IPTV;Non;Devient Infosport+
+Infosport+;26/08/2008;31/12/2023;Infosport;France;Sport;Information;Groupe Canal+;Câble,Satellite,IPTV;Non;
+Sport365;2007;2011;;France;Sport;Information;Sport365 Media;Câble,Satellite;Non;
+Kombat Sport;2007;;;France;Sport;Sports de combat;Kombat Sport;Câble,Satellite,IPTV;Non;
+Nolife;01/06/2007;08/04/2018;;France;Jeunesse;Culture japonaise;Nolife;ADSL,Câble,IPTV;Non;
+Game One Music HD;2012;2015;;France;Musique;Jeux vidéo;Paramount;Câble,Satellite;Non;À supprimer en v1.0 (HD)
+
+A partir d'ici on a pas mal de doublons
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+LCI;24/06/1994;;;France;Information;;TF1 (1994-2022), Groupe TF1 (2022-);Câble,Satellite,TNT,IPTV;Oui;
+Eurosport France;1991;;;France;Sport;;TF1 (1991-2015), Discovery (2015-2022), Warner Bros. Discovery (2022-);Câble,Satellite,IPTV;Non;
+Télétoon;17/12/1996;31/12/2002;;France;Jeunesse;Animation;TPS Jeunesse;Câble,Satellite;Non;⚠️ Déjà présent
+Télétoon+;01/01/2003;;;France;Jeunesse;Animation;Groupe Canal+;Câble,Satellite,IPTV;Non;⚠️ Déjà présent
+TF6;18/12/2000;31/12/2014;;France;Divertissement;;TF1 / Groupe M6;Câble,Satellite,IPTV;Non;
+Série Club;13/11/1993;;;France;Séries;;TF1 / M6;Câble,Satellite,IPTV;Non;
+TV Breizh;01/09/2000;;;France;Divertissement;Séries;Groupe TF1;Câble,Satellite,IPTV;Non;
+Histoire;13/01/1997;30/09/2006;;France;Documentaire;Histoire;TF1;Câble,Satellite;Non;⚠️ À rapprocher de La Chaîne Histoire déjà présente
+Odyssée;13/01/1997;30/06/2013;;France;Documentaire;Découverte;TF1;Câble,Satellite,IPTV;Non;
+Stylia;01/09/2010;31/12/2014;;France;Art de vivre;Féminin;Groupe TF1;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+RFM TV;20/03/2010;;;France;Musique;;Groupe M6 (2010-2013), Lagardère Active (2013-2018), Groupe 1981 (2018-);Câble,Satellite,IPTV;Oui;
+AB1;01/09/1997;;;France;Divertissement;;AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+RTL9;11/09/1995;;;Luxembourg;Généraliste;;CLT (1995-1997), AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Oui;
+AB Moteurs;31/03/1996;;;France;Sport;Automobile;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Animaux;01/09/1996;;;France;Documentaire;Nature;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+La Chaîne Histoire;13/01/1997;30/09/2006;;France;Documentaire;Histoire;AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Encyclopédia;13/01/1997;29/06/2007;;France;Documentaire;Sciences;AB Groupe;Câble,Satellite,IPTV;Non;
+Encyclo;30/06/2007;31/08/2018;Encyclopédia;France;Documentaire;Sciences;AB Groupe (2007-2017), Mediawan Thematics (2017-2018);Câble,Satellite,IPTV;Non;
+Toute l'Histoire;01/10/2006;;;France;Documentaire;Histoire;AB Groupe (2006-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Escales;13/01/1997;30/06/2011;;France;Documentaire;Voyage;AB Groupe;Câble,Satellite,IPTV;Non;
+Trek;01/07/2011;;;France;Documentaire;Voyage;AB Groupe (2011-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Chasse et Pêche;13/01/1997;;;France;Sport;Chasse et pêche;AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Science & Vie TV;26/02/2019;;;France;Documentaire;Sciences;Mediawan Thematics;Câble,Satellite,IPTV;Non;
+Mangas;23/03/1998;;;France;Jeunesse;Animation japonaise;AB Groupe (1998-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+XXL;13/09/1996;;;France;Adulte;;AB Groupe (1996-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Non;
+Lucky Jack.tv;13/10/2010;31/12/2015;;France;Jeux;Poker;AB Groupe;Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Canal Jimmy;29/11/1990;;;France;Divertissement;Séries;MultiThématiques (1990-2014), Groupe Canal+ (2014-2023);Câble,Satellite,IPTV;Non;À fusionner avec Jimmy
+Planète;24/09/1988;26/08/2011;;France;Documentaire;;MultiThématiques;Câble,Satellite,IPTV;Non;
+Canal J;15/12/1985;;;France;Jeunesse;;Groupe Canal+, Lagardère Active (2001-2014), Groupe M6 (2014-);Câble,Satellite,IPTV;Non;
+Tiji;23/12/2000;;;France;Jeunesse;Préscolaire;Lagardère Active;Câble,Satellite,IPTV;Non;
+MCM;1989;;;France;Musique;;Lagardère Active;Câble,Satellite,IPTV;Non;
+Muzzik;1998;2010;;France;Culture;Musique classique;AB Sat / TPS;Câble,Satellite;Non;Devient Mezzo Live (à vérifier)
+Mezzo;1996;;;France;Culture;Musique classique;Les Échos, Groupe Canal+;Câble,Satellite,IPTV;Non;
+Paris Première;15/12/1986;;;France;Généraliste;;Groupe M6;Câble,Satellite,TNT,IPTV;Non;
+Téva;06/10/1996;;;France;Art de vivre;Féminin;Groupe M6;Câble,Satellite,IPTV;Non;
+RTL9;11/09/1995;;;Luxembourg;Généraliste;;CLT (1995-1997), AB Groupe (1997-2017), Mediawan Thematics (2017-);Câble,Satellite,IPTV;Oui;
+AB1;01/09/1997;;;France;Divertissement;;AB Groupe;Câble,Satellite,IPTV;Non;
+TV Breizh;01/09/2000;;;France;Divertissement;Séries;Groupe TF1;Câble,Satellite,IPTV;Non;
+Festival;24/09/1999;31/08/2007;;France;Cinéma;Films de catalogue;MultiThématiques;Câble,Satellite;Non;
+Série Club;13/11/1993;;;France;Séries;;TF1 / M6;Câble,Satellite,IPTV;Non;
+Voyage;01/01/1996;;;France;Documentaire;Voyages;Fox International Channels (1996-2014), Groupe TF1 (2014-);Câble,Satellite,IPTV;Non;
+Odyssée;13/01/1997;30/06/2013;;France;Documentaire;Découverte;TF1;Câble,Satellite,IPTV;Non;
+Histoire;1997;2006;;France;Documentaire;Histoire;TF1;Câble,Satellite;Non;À rapprocher de La Chaîne Histoire
+
+Canal Satellite
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Canal Horizons;04/09/1991;30/06/2018;;France;Généraliste;International;Groupe Canal+;Satellite;Non;À vérifier selon le périmètre (diffusion principalement Afrique)
+Canal Vert;1996;1998;;France;Services;Promotion;CanalSatellite;Satellite;Oui;Chaîne promotionnelle
+Météo Express;1996;2001;;France;Information;Météo;CanalSatellite;Satellite;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Ciné Info;1997;2004;;France;Information;Cinéma;CanalSatellite;Satellite;Oui;Chaîne d'information cinéma
+Kiosque;1997;2011;;France;Cinéma;Paiement à la séance;Groupe Canal+;Satellite;Non;À discuter : chaîne ou service PPV
+CanalSatellite Info;1997;2005;;France;Services;Information;CanalSatellite;Satellite;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;sous_categorie;groupe;diffusion;gratuite;observations
+Demain !;31/03/1997;30/06/2004;;France;Société;Emploi;SEPT ARTE;Câble,Satellite;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+CanalSatellite Info;1997;2005;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service : informations sur le bouquet
+Canal Vert;1996;1998;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service promotionnelle
+Météo Express;1996;2001;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service : météo en continu
+Ciné Info;1997;2004;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service consacrée aux sorties cinéma et aux programmes
+Kiosque;1997;2011;;France;Services;Groupe Canal+;Satellite;Non;Chaîne de service de paiement à la séance (PPV)
+Kiosque Info;1997;2011;;France;Services;Groupe Canal+;Satellite;Oui;Chaîne de service présentant les programmes Kiosque
+Météo 24;1998;2006;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service météo
+CanalSatellite Magazine;1998;2003;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service présentant les nouveautés du bouquet
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Match TV;17/12/2002;31/12/2005;;France;Divertissement;Lagardère Active;Câble,Satellite,IPTV;Non;
+Voyage;1996;;;France;Documentaire;Fox International Channels (1996-2014), Groupe TF1 (2014-);Câble,Satellite,IPTV;Non;
+Histoire TV;01/10/2006;La Chaîne Histoire;France;Documentaire;TF1 (2006-2024), Groupe SECOM (2024-);Câble,Satellite,IPTV;Non;
+Ushuaïa TV;14/03/2005;;;France;Documentaire;Groupe TF1;Câble,Satellite,IPTV;Non;
+Stylia;01/09/2010;31/12/2014;;France;Art de vivre;Groupe TF1;Câble,Satellite,IPTV;Non;
+Vivolta;10/12/2007;31/12/2013;;France;Art de vivre;Vivolta;ADSL,Câble,Satellite,IPTV;Non;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Ciné Cinéfil;1992;26/04/1996;;France;Cinéma;Canal+;Satellite analogique;Non;
+Ciné Classics;26/04/1996;26/08/2011;Ciné Cinéfil;France;Cinéma;MultiThématiques;Câble,Satellite,IPTV;Non;Devient Ciné+ Classic
+Planète Câble;24/09/1988;1999;;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Ancienne identité de Planète
+CanalSatellite Magazine;1997;2005;;France;Services;CanalSatellite;Satellite;Oui;Chaîne de service présentant les nouveautés du bouquet
+À la une;2001;;;France;Services;Groupe Canal+;Satellite,IPTV;Oui;Chaîne de service présentant une sélection de programmes du bouquet
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+TVST;19/11/2001;31/03/2002;;France;Généraliste;TV Pilote;CanalSatellite;Non;Chaîne entièrement sous-titrée destinée aux personnes sourdes et malentendantes
+Alegria;14/05/2004;2009;;France;Culture;Alegria TV;CanalSatellite,Câble;Non;Chaîne consacrée aux cultures du Sud-Ouest, de l'Espagne et de l'Amérique latine
+Evasions;02/04/1996;2007;;France;Documentaire;AB Groupe;Câble,Satellite;Non;Devient ensuite Escales
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+KTO;13/12/1999;;;France;Religion;KTO;Câble,Satellite,TNT,IPTV;Oui;
+Demain !;31/03/1997;30/06/2004;;France;Société;SEPT ARTE;Câble,Satellite;Oui;
+ZIK;15/09/1999;31/07/2005;;France;Musique;AB Groupe;Câble,Satellite;Non;Source : KingOfSat, TéléSatellite
+XXL Germany;1998;2007;;France;Adulte;AB Groupe;Satellite;Non;Version francophone européenne. Source : KingOfSat
+Liberty TV.com;1999;2007;;France;Voyages;Liberty TV;Satellite,Câble;Oui;Source : KingOfSat, Planète CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Pink TV;25/10/2004;31/12/2008;;France;Divertissement;Pink TV;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+TVM Est Parisien;20/12/2004;31/12/2006;;France;Généraliste;IDF Télé;CanalSatellite;Non;Source : KingOfSat. Diffusion nationale via CanalSatellite.
+Direct 8;31/03/2005;;;France;Généraliste;Groupe Bolloré (2005-2012), Groupe Canal+ (2012-);TNT,Câble,Satellite,IPTV;Oui;
+Europe 2 TV;17/10/2005;31/10/2005;;France;Musique;Lagardère Active;TNT,Câble,Satellite,IPTV;Oui;
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Ma Chaîne Sport;13/10/1998;31/01/2017;;France;Sport;Groupe MCS;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Ma Chaîne Sport Bien-être;20/12/2006;31/12/2010;;France;Sport;Groupe MCS;Câble,Satellite,IPTV;Non;Source : KingOfSat
+Lucky Jack.tv;13/10/2010;31/12/2015;;France;Jeux;AB Groupe;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Poker Channel;2005;2012;;France;Jeux;Poker Channel Europe;Satellite,IPTV;Non;Version française. Source : KingOfSat
+Motors TV;18/09/2000;28/02/2017;;France;Sport;Motors TV;Câble,Satellite,IPTV;Non;Version française. Source : KingOfSat, TéléSatellite
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Orange Sport Info;26/05/2008;30/06/2012;;France;Sport;Orange;ADSL,Satellite;Non;Source : KingOfSat, TéléSatellite
+Orange Ciné Max;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Happy;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Choc;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Géants;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Novo;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Info;13/11/2008;03/07/2012;;France;Services;Orange;ADSL,Satellite;Oui;Chaîne de service présentant les chaînes Orange Cinéma Séries. Source : Orange
+
+TPS 96-2001
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+TPS Star;12/12/1996;31/12/2011;;France;Cinéma;TPS (1996-2007), Groupe Canal+ (2007-2011);Satellite,IPTV;Non;
+Cinéstar 1;12/12/1996;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Cinéstar 2;12/12/1996;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Cinéstar 3;30/08/2003;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Cinétoile;12/12/1996;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Cinéculte;12/12/1996;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Cinéfamily;12/12/1996;26/08/2007;;France;Cinéma;TPS;Satellite;Non;
+Télétoon Ciné;2003;2007;;France;Jeunesse;TPS;Satellite;Non;Chaîne événementielle cinéma jeunesse
+TPS Cinéclub;2003;2007;;France;Cinéma;TPS;Satellite;Non;
+TPS Home Cinéma;2003;2007;;France;Cinéma;TPS;Satellite;Non;
+TPS Cinétoile Info;2003;2007;;France;Services;TPS;Satellite;Oui;Chaîne de service présentant les programmes cinéma TPS
+TPS Info;1996;2007;;France;Services;TPS;Satellite;Oui;Chaîne de service du bouquet TPS
+TPS Mosaïque;1996;2007;;France;Services;TPS;Satellite;Oui;Chaîne de service de présentation des programmes
+
+Téléachat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Club Téléachat;1988;2001;;France;Téléachat;Club Téléachat;Câble,Satellite;Oui;Source : archives presse, Télécâble Sat Hebdo
+M6 Boutique La Chaîne;2004;;;France;Téléachat;Groupe M6;Câble,Satellite,IPTV;Oui;Source : Groupe M6, KingOfSat
+Best Direct;2002;2015;;France;Téléachat;Best Direct;Câble,Satellite,IPTV;Oui;Source : KingOfSat, TéléSatellite
+
+Freebox
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Liberty TV;1999;2012;;France;Voyages;Liberty TV;ADSL,Câble,Satellite;Oui;Source : KingOfSat, Univers Freebox
+Clubbing TV;2007;;;France;Musique;SECOM;ADSL,Câble,Satellite,IPTV;Oui;Source : KingOfSat, Univers Freebox
+Télé Bocal;2004;2012;;France;Généraliste;Télé Bocal;ADSL;Oui;Source : Univers Freebox. Chaîne nationale associative diffusée sur Freebox TV.
+Cinaps TV;2007;2011;;France;Culture;Cinaps TV;ADSL;Oui;Source : Univers Freebox
+BDM TV;2008;2010;;France;Information;BDM TV;ADSL;Oui;Source : Univers Freebox
+Demain IDF;2007;2013;;France;Société;Demain IDF;ADSL;Oui;Source : Univers Freebox
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Beur TV;01/04/2003;;;France;Généraliste;Beur TV;ADSL,Câble,Satellite;Oui;Chaîne communautaire francophone. Source : KingOfSat
+Berbère Télévision;2000;;;France;Généraliste;Berbère Télévision;ADSL,Câble,Satellite;Oui;Chaîne communautaire francophone. Source : KingOfSat
+Africa 24;30/05/2009;;;France;Information;Africa 24;ADSL,Câble,Satellite;Oui;Chaîne d'information panafricaine en français. Source : KingOfSat, Univers Freebox
+Télé Maison;2009;2015;;France;Art de vivre;Télé Maison;ADSL,IPTV;Oui;Source : Univers Freebox, KingOfSat
+Maison+;01/01/2016;Télé Maison;France;Art de vivre;Groupe Canal+;ADSL,Câble,Satellite,IPTV;Non;Succède à Télé Maison. Source : Groupe Canal+, KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Campagnes TV;01/09/2011;31/12/2015;;France;Documentaire;Campagnes TV;ADSL,Câble,Satellite;Oui;Chaîne consacrée au monde rural. Source : KingOfSat, Univers Freebox
+Souvenirs From Earth;27/05/2008;31/12/2020;;France;Culture;Souvenirs From Earth;ADSL,Câble,IPTV;Oui;Chaîne consacrée à l'art contemporain. Source : KingOfSat
+Fashion TV Paris;2001;;;France;Mode;Fashion TV;ADSL,Câble,Satellite;Oui;Version française. Source : KingOfSat
+MCS Extrême;10/01/2007;31/01/2017;;France;Sport;Groupe MCS;ADSL,Câble,Satellite;Non;Source : KingOfSat
+MCS Tennis;20/01/2007;31/01/2017;;France;Sport;Groupe MCS;ADSL,Câble,Satellite;Non;Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+myZen TV;01/09/2008;;;France;Art de vivre;Secom;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat, Univers Freebox
+Museum;20/04/2009;;;France;Culture;Secom;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Brava HDTV;2008;;;France;Culture;Brava Media;ADSL,Câble,IPTV;Non;Version française disponible. Source : Univers Freebox, KingOfSat
+Trace Tropical;28/04/2009;;;France;Musique;Trace Group;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat
+Trace Urban;15/04/2003;;;France;Musique;Trace Group;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Melody d'Afrique;2013;2018;;France;Musique;Melody;ADSL,IPTV;Non;Version africaine francophone. Source : KingOfSat
+Nolife;01/06/2007;08/04/2018;;France;Jeunesse;Nolife;ADSL,Câble,Satellite,IPTV;Oui;Source : KingOfSat, Univers Freebox
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Men's Up TV;01/11/2014;;;France;Art de vivre;Men's Up TV;ADSL,Câble,Satellite,IPTV;Oui;Chaîne consacrée à l'univers masculin. Source : KingOfSat, Univers Freebox
+myCuisine;16/05/2011;;;France;Art de vivre;SECOM;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat
+Museum TV;01/04/2017;Museum;France;Culture;SECOM;ADSL,Câble,Satellite,IPTV;Non;Changement de nom. Source : KingOfSat
+Trace Sport Stars;15/06/2011;;;France;Sport;Trace Group;ADSL,Câble,Satellite,IPTV;Non;Source : KingOfSat
+
+Orange TV
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Orange Sport;16/08/2008;30/06/2012;;France;Sport;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Sport Info;26/05/2008;30/06/2012;;France;Sport;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Max;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Happy;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Choc;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Géants;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Novo;13/11/2008;03/07/2012;;France;Cinéma;Orange;ADSL,Satellite;Non;Source : Orange, KingOfSat
+Orange Ciné Info;13/11/2008;03/07/2012;;France;Services;Orange;ADSL,Satellite;Oui;Chaîne de service présentant les chaînes Orange Cinéma Séries. Source : Orange
+OCS Max;03/07/2012;;;France;Cinéma;OCS;ADSL,Câble,Satellite,IPTV;Non;Succède à Orange Ciné Max. Source : OCS, KingOfSat
+OCS Happy;03/07/2012;31/08/2018;Orange Ciné Happy;France;Cinéma;OCS;ADSL,Câble,Satellite,IPTV;Non;Source : OCS, KingOfSat
+OCS Choc;03/07/2012;;;France;Cinéma;OCS;ADSL,Câble,Satellite,IPTV;Non;Source : OCS, KingOfSat
+OCS Géants;03/07/2012;;;France;Cinéma;OCS;ADSL,Câble,Satellite,IPTV;Non;Source : OCS, KingOfSat
+OCS Novo;03/07/2012;31/08/2018;Orange Ciné Novo;France;Cinéma;OCS;ADSL,Câble,Satellite,IPTV;Non;Source : OCS, KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+OCS City;03/07/2012;;;France;Séries;OCS;ADSL,Câble,Satellite,IPTV;Non;Lancée lors de la réorganisation d'Orange Cinéma Séries. Source : OCS, KingOfSat
+OCS Go;03/07/2012;31/12/2023;;France;Services;OCS;ADSL,Câble,Satellite,IPTV;Oui;Chaîne de service présentant les programmes OCS. Source : OCS
+
+Noos Numéricable
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Cuisine TV;08/09/2001;;;France;Art de vivre;Pathé (2001-2011), Groupe Canal+ (2011-);Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Seasons;27/09/1997;;;France;Sport;MultiThématiques;Câble,Satellite,IPTV;Non;Chaîne consacrée à la chasse, la pêche et la nature. Source : KingOfSat
+Match TV;17/12/2002;31/12/2005;;France;Divertissement;Lagardère Active;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Comédie !;29/11/1997;;;France;Divertissement;MultiThématiques (1997-2014), Groupe Canal+ (2014-);Câble,Satellite,IPTV;Non;Le point d'exclamation fait partie du nom d'origine. Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Encyclopédia;16/12/1996;30/06/2007;;France;Documentaire;AB Groupe;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Escales;2007;31/12/2015;Evasions;France;Documentaire;AB Groupe;Câble,Satellite,IPTV;Non;Succède à Evasions. Source : KingOfSat
+Toute l'Histoire;02/10/2006;;;France;Documentaire;AB Groupe;Câble,Satellite,IPTV;Non;Source : KingOfSat, TéléSatellite
+Animaux;01/09/1996;;;France;Documentaire;MultiThématiques;Câble,Satellite,IPTV;Non;Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Encyclo;01/07/2007;30/06/2014;Encyclopédia;France;Documentaire;AB Groupe;Câble,Satellite,IPTV;Non;Changement de nom. Source : KingOfSat, TéléSatellite
+Vivolta;10/12/2007;31/12/2013;;France;Art de vivre;Vivolta;Câble,Satellite,IPTV;Non;Source : KingOfSat
+Toute l'Histoire;02/10/2006;;;France;Documentaire;AB Groupe;Câble,Satellite,IPTV;Non;Source : KingOfSat
+Maison+;01/01/2016;31/12/2024;Télé Maison;France;Art de vivre;Groupe Canal+;Câble,Satellite,IPTV;Non;Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Luxe.TV;23/06/2006;;;Luxembourg;Art de vivre;Luxe.TV S.A.;Câble,Satellite,IPTV;Non;Version française. Source : KingOfSat, TéléSatellite
+Nostalgie la Télé;15/12/2008;30/06/2009;;France;Musique;NRJ Group;ADSL,Câble,Satellite;Oui;Source : KingOfSat, TéléSatellite
+C Music TV;15/10/2007;;;France;Musique;C Music Entertainment;Câble,Satellite,IPTV;Non;Version francophone distribuée en France. Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Télé Melody;1993;31/12/1997;;France;Musique;Télé Melody;Câble;Non;Devient Melody. Source : archives presse, KingOfSat
+Melody;01/01/1998;;;France;Musique;Melody;Câble,Satellite,IPTV;Non;Succède à Télé Melody. Source : KingOfSat
+Équidia Life;20/09/2007;30/08/2018;Équidia;France;Sport;France Galop / LeTROT;Câble,Satellite,IPTV;Non;Déclinaison éditoriale d'Équidia. Source : KingOfSat
+Équidia Live;20/09/2007;;;France;Sport;France Galop / LeTROT;Câble,Satellite,IPTV;Non;Déclinaison éditoriale d'Équidia. Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Lucky Jack.tv;13/10/2010;31/12/2015;;France;Jeux;AB Groupe;Câble,Satellite,IPTV;Non;Source : KingOfSat
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Nollywood TV;05/10/2012;;;France;Cinéma;THEMA;Câble,Satellite,IPTV;Non;Chaîne consacrée au cinéma nigérian doublé en français. Source : KingOfSat, THEMA
+Novelas TV;26/09/2012;;;France;Séries;THEMA;Câble,Satellite,IPTV;Non;Chaîne de telenovelas en français. Source : KingOfSat, THEMA
+
+Alice TV
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+Baby First;2007;;;France;Jeunesse;Fox International Channels;ADSL,Câble,Satellite,IPTV;Non;Version française. Source : KingOfSat, TéléSatellite
+Eurochannel;1994;;;France;Cinéma;Eurochannel;ADSL,Câble,Satellite,IPTV;Non;Version française diffusée sur les bouquets français. Source : KingOfSat
+
+Neuf TV
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+JET;19/03/2007;31/12/2008;;France;Jeux;TF1;ADSL,IPTV;Oui;Chaîne interactive consacrée aux jeux télévisés. Source : communiqué TF1, Journal du Net
+Luxe.TV;23/06/2006;;;Luxembourg;Art de vivre;Luxe.TV S.A.;ADSL,Câble,Satellite,IPTV;Non;Version française distribuée sur Neuf TV. Source : KingOfSat, communiqué Neuf Cegetel
+
+Fandom
+
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations
+AB Sat;1996;2007;;France;Services;AB Groupe;Satellite;Oui;Chaîne de présentation du bouquet AB Sat. Source : Wiki CSAT (03/1998), Wikipédia AB Sat
+Forum Planète;1997;2004;;France;Services;MultiThématiques;Satellite;Oui;Chaîne de présentation des programmes Planète. Source : Wiki CSAT (12/1997)
+AB Sports;12/12/1997;2002;;France;Sport;AB Groupe;Câble,Satellite;Non;Première apparition relevée sur CanalSatellite en décembre 1997. Source : Wiki CSAT (12/1997)
+Nostalgie la télé;1997;2000;;France;Musique;NRJ Group;Câble,Satellite;Non;Source : Wiki CSAT (12/1997)
+Contact TV;1997;1998;;France;Services;Contact TV;Satellite;Oui;Source : Wiki CSAT (12/1997)
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Kiosque;1997;;;France;Cinéma;Canal+;Satellite;Non;Service de paiement à la séance (PPV). À conserver.;Wiki CSAT
+CanalFoot 98;1998;1998;;France;Sport;Canal+;Satellite;Non;Chaîne événementielle consacrée à la Coupe du monde 1998.;Wiki CSAT
+France Courses;1996;2001;;France;Sport;France Courses;Satellite,Câble;Non;Chaîne consacrée aux courses hippiques.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Planète Forum;02/09/1998;2001;;France;Documentaire;MultiThématiques;Satellite,Câble;Non;Deviendra Planète Future. Ne pas confondre avec Forum Planète (chaîne de service).;Wiki CSAT, Wikipédia
+RFM TV;1999;2005;Nostalgie la télé;France;Musique;AB Groupe;Satellite,Câble;Non;Remplace Nostalgie la télé.;Wiki CSAT, Wikipédia
+Kiosque Info;1999;;;France;Services;Canal+;Satellite;Oui;Chaîne de présentation des séances Kiosque.;Wiki CSAT
+CanalSatellite Promo;1999;;;France;Services;CanalSatellite;Satellite;Oui;Chaîne promotionnelle du bouquet.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Planète Forum;02/09/1998;2001;;France;Documentaire;MultiThématiques;Satellite,Câble;Non;Deviendra Planète Future. Ne pas confondre avec Forum Planète (chaîne de service).;Wiki CSAT, Wikipédia
+RFM TV;1999;2005;Nostalgie la télé;France;Musique;AB Groupe;Satellite,Câble;Non;Remplace Nostalgie la télé.;Wiki CSAT, Wikipédia
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Planète 2;15/09/1999;31/10/2002;;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Devient Planète Thalassa le 01/11/2002.
+Canal Club;2000;2001;;France;Musique;Groupe Canal+;Satellite;Non;Chaîne musicale éphémère diffusée sur CanalSatellite.;Wiki CSAT
+AlloCiné Télévision;2000;2002;;France;Cinéma;AlloCiné;Satellite,Câble;Non;Chaîne consacrée à l'actualité du cinéma.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+TF6;18/12/2000;;M6 Music;France;Divertissement;TF1/M6;Câble,Satellite,ADSL;Non;Apparaît dans les bouquets CanalSatellite à partir de 2001.;Wiki CSAT
+Planète Thalassa;01/11/2002;;Planète 2;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Succède à Planète 2.;Wiki CSAT
