@@ -4,14 +4,19 @@ export default class ProcessingContext {
 
         this.version = "0.1.0";
 
+        // Configuration de la période
         this.config = null;
 
+        // Page en cours de traitement
         this.page = null;
 
+        // Mode debug
         this.debug = false;
 
-        this.logger = null;
+        // Statistiques globales
+        this.statistics = {};
 
+        // Temps d'exécution des étapes
         this.timings = {};
 
     }
