@@ -1,0 +1,9 @@
+node_modules/
+
+output/
+debug/
+
+.DS_Store
+Thumbs.db
+
+.vscode/settings.json
