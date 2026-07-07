@@ -1,10 +1,10 @@
 export default class Channel {
 
-    constructor(config) {
+    constructor(block) {
 
-        this.name = config.name;
+        this.block = block;
 
-        this.config = config;
+        this.name = block.name;
 
         this.programs = [];
 

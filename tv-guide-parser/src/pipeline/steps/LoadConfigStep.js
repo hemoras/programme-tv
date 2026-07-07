@@ -15,20 +15,23 @@ export default class LoadConfigStep extends PipelineStep {
         const pageConfig = context.config.pages[String(page.pageNumber)];
 
         if (!pageConfig) {
-
             throw new Error(`Configuration absente pour la page ${page.pageNumber}`);
-
         }
 
-        page.layout = pageConfig.layout;
+        page.profile = pageConfig;
 
-        page.blocks = pageConfig.blocks.map(block => ({
+        page.blocks = [];
+        page.ignoredBlocks = [];
 
-            type: block.type ?? "channel",
+        for (const block of pageConfig.blocks) {
 
-            ...block
+            if (block.type === "ignored") {
+                page.ignoredBlocks.push(block);
+            } else {
+                page.blocks.push(block);
+            }
 
-        }));
+        }
 
         page.statistics.detectedBlocks = page.blocks.length;
 

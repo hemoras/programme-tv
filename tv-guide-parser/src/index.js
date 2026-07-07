@@ -67,12 +67,14 @@ console.log();
 
 console.log(chalk.green("Configuration"));
 console.log("----------------------------");
-console.log("Layout :", context.page.layout);
+console.log("Profil :", context.page.profile.name);
+console.log("Layout :", context.page.profile.layout);
 console.log();
 
 console.log(chalk.green("Blocs"));
 console.log("----------------------------");
 console.log("Détectés :", context.page.statistics.detectedBlocks);
+console.log("Blocs ignorés :", context.page.ignoredBlocks.length);
 console.log();
 
 console.log(chalk.green("Chaînes"));

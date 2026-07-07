@@ -2,6 +2,8 @@ export default class Program {
 
     constructor() {
 
+        this.channel = null;
+
         this.startTime = "";
 
         this.title = "";
@@ -9,6 +11,12 @@ export default class Program {
         this.subtitle = "";
 
         this.genre = "";
+
+        // Texte OCR ayant servi à créer le programme
+        this.rawText = "";
+
+        // Score de confiance
+        this.confidence = 1.0;
 
     }
 
