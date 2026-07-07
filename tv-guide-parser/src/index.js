@@ -56,7 +56,8 @@ const engine = new Engine();
 const context = await engine.run(
     date,
     page,
-    image
+    image,
+    { debug: options.debug }
 );
 
 console.log(chalk.green("Image détectée"));

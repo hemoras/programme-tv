@@ -3,6 +3,8 @@
     "startDate": "2001-01-01",
     "endDate": "2001-12-31",
 
+    "rowSeparator": "line",
+
     "pages": {
         "1": {
             "layout": "multi-channel",
