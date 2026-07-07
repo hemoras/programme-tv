@@ -1,42 +1,41 @@
+import ProcessingContext from "./ProcessingContext.js";
+
 import ConfigManager from "../config/ConfigManager.js";
 
 import Page from "./Page.js";
-import Channel from "./Channel.js";
-import ImageLoader from "../image/ImageLoader.js";
+
+import Pipeline from "../pipeline/Pipeline.js";
+
+import LoadConfigStep from "../pipeline/steps/LoadConfigStep.js";
+import BuildChannelsStep from "../pipeline/steps/BuildChannelsStep.js";
 
 export default class Engine {
 
+    constructor() {
+
+        this.pipeline = new Pipeline();
+
+        this.pipeline
+            .add(new LoadConfigStep())
+            .add(new BuildChannelsStep());
+
+    }
+
     async run(date, pageNumber, imagePath) {
 
-        const config = ConfigManager.load(date);
+        const context = new ProcessingContext();
 
-        const page = new Page(date, pageNumber, imagePath);
+        context.config = ConfigManager.load(date);
 
-        const loader=new ImageLoader();
+        context.page = new Page(
+            date,
+            pageNumber,
+            imagePath
+        );
 
-        page.image=await loader.load(imagePath);
+        await this.pipeline.execute(context);
 
-        const pageConfig = config.pages[String(pageNumber)];
-
-        if (!pageConfig) {
-            throw new Error(`La page ${pageNumber} n'existe pas dans la configuration.`);
-        }
-
-        page.layout = pageConfig.layout;
-
-        for (const block of pageConfig.blocks) {
-
-            const type = block.type ?? "channel";
-
-            if (type !== "channel") {
-                continue;
-            }
-
-            page.channels.push(new Channel(block));
-
-        }
-
-        return page;
+        return context;
 
     }
 

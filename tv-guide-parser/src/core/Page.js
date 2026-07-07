@@ -42,10 +42,7 @@ export default class Page {
 
         this.debug = {
 
-            enabled: false,
-
             images: [],
-
             messages: []
 
         };
@@ -57,18 +54,10 @@ export default class Page {
         this.statistics = {
 
             detectedBlocks: 0,
-
             detectedChannels: 0,
-
             detectedPrograms: 0
 
         };
-
-        // ============================
-        // Performances
-        // ============================
-
-        this.timings = {};
 
     }
 
