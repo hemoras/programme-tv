@@ -791,3 +791,74 @@ AlloCiné Télévision;2000;2002;;France;Cinéma;AlloCiné;Satellite,Câble;Non;
 chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
 TF6;18/12/2000;;M6 Music;France;Divertissement;TF1/M6;Câble,Satellite,ADSL;Non;Apparaît dans les bouquets CanalSatellite à partir de 2001.;Wiki CSAT
 Planète Thalassa;01/11/2002;;Planète 2;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Succède à Planète 2.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Planète Future;2001;;;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Historique à consolider en V1.;Wiki CSAT
+Planète Thalassa;01/11/2002;;;France;Documentaire;MultiThématiques;Câble,Satellite;Non;Succède à Planète 2 (historique à consolider).;Wiki CSAT
+Ma Planète;2003;;;France;Jeunesse;MultiThématiques;Câble,Satellite;Non;Chaîne jeunesse documentaire.;Wiki CSAT
+Canal Club;2003;2005;;France;Sport;Groupe Canal+;Satellite;Non;Chaîne consacrée aux sports et loisirs mécaniques. Historique à vérifier en V1.;Wiki CSAT
+Gourmet TV;2001;2010;;France;Art de vivre;Gourmet TV;Câble,Satellite;Non;Chaîne consacrée à la gastronomie.;Wiki CSAT
+CinéCinéma Info;2004;;;France;Services;MultiThématiques;Satellite;Oui;Chaîne de service du bouquet CinéCinéma.;Wiki CSAT
+Tchatche TV;2004;2008;;France;Musique;Groupe M6;Satellite,Câble;Non;Chaîne musicale interactive.;Wiki CSAT
+Pink TV;2004;2013;;France;Divertissement;Pink TV;Câble,Satellite,ADSL;Non;Chaîne destinée au public LGBT.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Du côté de chez vous TV;;;;France;Art de vivre;Communication et Programme International;Satellite,Câble;Non;;Wiki CSAT
+Onzéo;;;;France;Sport;SAS Onzéo;Satellite,Câble;Non;Chaîne consacrée aux clubs RC Lens et AS Saint-Étienne.;Wiki CSAT
+NASN;;;;Royaume-Uni;Sport;ESPN;Satellite;Non;Chaîne sportive distribuée en France.;Wiki CSAT
+Alegria;;;;France;Culture;Alegria Diffusion;Satellite;Non;Chaîne hispanophone éditée en France.;Wiki CSAT
+PMU sur Canal+;;;;France;Sport;PMU / Groupe Canal+;Satellite;Oui;Chaîne de service dédiée aux paris hippiques.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Canal Téléréalité;;;;France;Divertissement;Groupe Canal+;Satellite;Non;Chaîne événementielle consacrée à la téléréalité.;Wiki CSAT
+Planète Justice;;;;France;Documentaire;Groupe Canal+;Satellite,Câble;Non;;Wiki CSAT
+Planète No Limit;;;;France;Documentaire;Groupe Canal+;Satellite,Câble;Non;;Wiki CSAT
+Cash TVi;;;;France;Jeux;NewScreens;Satellite;Oui;Déclinaison interactive de Cash TV.;Wiki CSAT
+À la carte;;;;France;Cinéma;Groupe Canal+;Satellite;Non;Service de paiement à la séance, distinct de Kiosque.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+Stylia;;;;France;Art de vivre;Groupe TF1;Satellite,Câble,ADSL;Non;Remplace Odyssée (historique à vérifier en V1).;Wiki CSAT
+Campagnes TV;;;;France;Découverte;Campagnes TV;Satellite,Câble,ADSL;Non;;Wiki CSAT
+Maison Côté Sud TV;;;;France;Art de vivre;Côté Sud Communication;Satellite;Non;;Wiki CSAT
+TV Classica France;;;;France;Musique;Classica GmbH;Satellite;Non;Version française de TV Classica.;Wiki CSAT
+Poker Channel;;;;Royaume-Uni;Sport;Poker Channel;Satellite;Non;Version distribuée en français sur CanalSat.;Wiki CSAT
+chaine;date_creation;date_fin;predecesseur;pays;categorie;groupe;diffusion;gratuite;observations;source_principale
+MCS Bien-être;;;;France;Art de vivre;MCS Groupe;Satellite,Câble,ADSL;Non;;Wiki CSAT
+MCS Extrême;;;;France;Sport;MCS Groupe;Satellite,Câble,ADSL;Non;;Wiki CSAT
+myZen TV;;;;France;Art de vivre;Secom;Satellite,Câble,ADSL;Non;;Wiki CSAT
+Outdoor Channel France;;;;France;Sport;Outdoor Channel;Satellite,Câble,ADSL;Non;Version française.;Wiki CSAT
+KTO Radio Vision;;;;France;Religion;KTO;Satellite;Oui;Déclinaison télévisuelle spécifique diffusée sur CanalSat.;Wiki CSAT
+
+Wikipedia
+
+chaine;observations;source_principale
+Canal+ Hi-Tech;Chaîne thématique du bouquet Canal+ consacrée aux nouvelles technologies.;Wikipédia
+Canal 15;Chaîne locale/distribution spécifique des débuts du câble. À vérifier si tu souhaites conserver ce type de chaîne.;Wikipédia
+CFoot;Chaîne de la Ligue de Football Professionnel (2011-2012).;Wikipédia
+Célà TV;Chaîne généraliste privée destinée à l'Afrique francophone, éditée depuis la France.;Wikipédia
+chaine;observations;source_principale
+Demain !;Chaîne consacrée à l'emploi et à la formation.;Wikipédia
+Demain TV;Succède à Demain ! (historique à consolider en V1).;Wikipédia
+chaine;observations;source_principale
+Girondins TV;Chaîne officielle du FC Girondins de Bordeaux.;Wikipédia
+IC1;Chaîne généraliste destinée aux diasporas africaines francophones, diffusée en France.;Wikipédia
+Infosport;Ancienne identité d'Infosport+ (historique à consolider en V1).;Wikipédia
+June;Chaîne destinée au public féminin, remplace Filles TV (historique à consolider en V1).;Wikipédia
+chaine;observations;source_principale
+Maison+;Chaîne art de vivre du Groupe Canal+ (historique à consolider avec Cuisine+, Maison & Travaux TV, etc. en V1).;Wikipédia
+Mangas;À vérifier qu'elle est bien déjà présente dans la base.;Wikipédia
+Match TV;Chaîne généraliste du Groupe Lagardère.;Wikipédia
+Mezzo Live HD;À exclure si tu confirmes que les déclinaisons HD ne sont jamais conservées.;Wikipédia
+chaine;observations;source_principale
+NoLife;Chaîne consacrée à la culture geek, aux jeux vidéo et à la J-pop.;Wikipédia
+Passe Partout;Chaîne de services destinée aux établissements de santé.;Wikipédia
+Penthouse Black;Chaîne adulte diffusée en France.;Wikipédia
+Penthouse Passion;Chaîne adulte diffusée en France.;Wikipédia
+Planète A&E;Déclinaison de la famille Planète. Historique à consolider en V1.;Wikipédia
+Polar+;Chaîne consacrée aux séries policières.;Wikipédia
+chaine;observations;source_principale
+Seasons;Chaîne consacrée à la chasse, à la pêche et à la nature.;Wikipédia
+Studio 4;Chaîne musicale éphémère.;Wikipédia
+chaine;observations;source_principale
+Télétoon+1;À exclure si la règle des +1 s'applique (probablement déjà ignorée).;Wikipédia
+Trace Tropical;Déclinaison de Trace consacrée aux musiques tropicales.;Wikipédia
+TV Breizh;À vérifier qu'elle est bien déjà présente dans la base.;Wikipédia
+TVPI;Chaîne destinée aux patients hospitalisés.;Wikipédia
+Ushuaïa TV;À vérifier qu'elle est bien déjà présente dans la base.;Wikipédia
+Vivolta;Chaîne féminine et art de vivre.;Wikipédia
