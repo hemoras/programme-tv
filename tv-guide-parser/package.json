@@ -21,10 +21,12 @@
     "node": ">=22.2.0"
   },
   "dependencies": {
+    "@tesseract.js-data/fra": "^1.0.0",
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0",
     "glob": "^11.0.1",
-    "sharp": "^0.33.5"
+    "sharp": "^0.33.5",
+    "tesseract.js": "^7.0.0"
   }
 }

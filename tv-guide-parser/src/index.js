@@ -83,8 +83,27 @@ console.log("----------------------------");
 
 for (const channel of context.page.channels) {
 
-    console.log("•", channel.name);
+    const block = channel.block;
+    const confidence = block.confidence != null ? `${Math.round(block.confidence)}%` : "-";
+    const chars = block.text ? block.text.length : 0;
+    const programs = channel.programs ? channel.programs.length : 0;
 
+    console.log("•", channel.name.padEnd(20), `OCR: ${confidence}`.padEnd(10), `${chars} caractères`.padEnd(16), `${programs} programmes`);
+
+}
+
+console.log();
+
+console.log(chalk.green("Programmes"));
+console.log("----------------------------");
+console.log("Total :", context.page.statistics.detectedPrograms);
+console.log();
+
+console.log(chalk.green("Export CSV"));
+console.log("----------------------------");
+
+for (const file of context.page.csvFiles ?? []) {
+    console.log("•", file);
 }
 
 console.log();

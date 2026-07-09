@@ -10,7 +10,10 @@ import LoadConfigStep from "../pipeline/steps/LoadConfigStep.js";
 import LoadImageStep from "../pipeline/steps/LoadImageStep.js";
 import DetectBlocksStep from "../pipeline/steps/DetectBlocksStep.js";
 import CropBlocksStep from "../pipeline/steps/CropBlocksStep.js";
+import OcrBlocksStep from "../pipeline/steps/OcrBlocksStep.js";
 import BuildChannelsStep from "../pipeline/steps/BuildChannelsStep.js";
+import ParseProgramsStep from "../pipeline/steps/ParseProgramsStep.js";
+import ExportCsvStep from "../pipeline/steps/ExportCsvStep.js";
 
 export default class Engine {
 
@@ -23,7 +26,10 @@ export default class Engine {
             .add(new LoadImageStep())
             .add(new DetectBlocksStep())
             .add(new CropBlocksStep())
-            .add(new BuildChannelsStep());
+            .add(new OcrBlocksStep())
+            .add(new BuildChannelsStep())
+            .add(new ParseProgramsStep())
+            .add(new ExportCsvStep());
 
     }
 

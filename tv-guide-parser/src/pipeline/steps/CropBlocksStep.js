@@ -3,6 +3,7 @@ import sharp from "sharp";
 import PipelineStep from "../PipelineStep.js";
 
 import DebugImageWriter from "../../core/DebugImageWriter.js";
+import safeFilename from "../../core/safeFilename.js";
 
 export default class CropBlocksStep extends PipelineStep {
 
@@ -41,12 +42,7 @@ export default class CropBlocksStep extends PipelineStep {
 
             if (context.debug) {
 
-                // On ne remplace que les caractères réellement invalides dans
-                // un nom de fichier (Windows/Linux) et les espaces ; les
-                // lettres accentuées (é, è, ô...) sont conservées telles quelles.
-                const safeName = block.name
-                    .replace(/\s+/g, "_")
-                    .replace(/[\\/:*?"<>|]+/g, "_");
+                const safeName = safeFilename(block.name);
 
                 DebugImageWriter.write(
                     `${String(index).padStart(2, "0")}-${safeName}.png`,
