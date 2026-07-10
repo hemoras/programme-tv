@@ -8,6 +8,11 @@ export default class Block {
         // Nom attendu (configuration)
         this.name = config.name ?? "";
 
+        // Nombre de rangées consécutives occupées par ce bloc dans sa
+        // colonne (ex. Pathé Sport sur Page4/2001, cf. "rowSpan" dans
+        // config/periods/*.json et DetectBlocksStep.assignBounds()).
+        this.rowSpan = config.rowSpan ?? 1;
+
         // Coordonnées dans l'image
         this.bounds = null;
 

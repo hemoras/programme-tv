@@ -4,6 +4,8 @@ output/
 debug/
 csv/
 
+.env
+
 .DS_Store
 Thumbs.db
 

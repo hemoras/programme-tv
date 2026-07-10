@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node src/index.js",
     "dev": "node src/index.js",
-    "test": "node --test"
+    "test": "node --test",
+    "generate-chaines": "node scripts/generateChainesMapping.js"
   },
   "keywords": [
     "tv",

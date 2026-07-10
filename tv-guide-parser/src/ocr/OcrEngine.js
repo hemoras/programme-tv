@@ -36,17 +36,21 @@ export default class OcrEngine {
 
     /**
      * @param {Buffer|string} image chemin ou buffer d'image (idéalement déjà prétraitée)
-     * @returns {Promise<{text: string, confidence: number}>}
+     * @returns {Promise<{text: string, confidence: number, words: {text: string, confidence: number}[]}>}
+     *   `words` liste les mots reconnus dans l'ordre de lecture avec leur
+     *   confiance individuelle (issue du TSV Tesseract) — utilisé pour
+     *   repérer les zones mal reconnues (voir garbledText.js).
      */
     async recognize(image) {
 
         await this.init();
 
-        const { data } = await this.worker.recognize(image);
+        const { data } = await this.worker.recognize(image, {}, { tsv: true });
 
         return {
             text: data.text.trim(),
-            confidence: data.confidence
+            confidence: data.confidence,
+            words: parseWords(data.tsv)
         };
 
     }
@@ -59,5 +63,34 @@ export default class OcrEngine {
         }
 
     }
+
+}
+
+/**
+ * Extrait la liste des mots (niveau 5 du TSV Tesseract) avec leur confiance,
+ * dans l'ordre de lecture.
+ */
+function parseWords(tsv) {
+
+    const words = [];
+
+    for (const line of tsv.split("\n")) {
+
+        if (!line) continue;
+
+        const cols = line.split("\t");
+
+        if (cols[0] !== "5") continue; // niveau 5 = mot
+
+        const confidence = parseFloat(cols[10]);
+        const text = cols[11];
+
+        if (!text) continue;
+
+        words.push({ text, confidence });
+
+    }
+
+    return words;
 
 }

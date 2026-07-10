@@ -21,18 +21,32 @@ export default class Engine {
 
         this.pipeline = new Pipeline();
 
+        this.ocrBlocksStep = new OcrBlocksStep();
+
         this.pipeline
             .add(new LoadConfigStep())
             .add(new LoadImageStep())
             .add(new DetectBlocksStep())
             .add(new CropBlocksStep())
-            .add(new OcrBlocksStep())
+            .add(this.ocrBlocksStep)
             .add(new BuildChannelsStep())
             .add(new ParseProgramsStep())
             .add(new ExportCsvStep());
 
     }
 
+    /**
+     * @param {string} date "YYYY-MM-DD"
+     * @param {number} pageNumber
+     * @param {string} imagePath
+     * @param {{debug?: boolean}} [options]
+     *
+     * Le worker OCR est réutilisé d'un appel à l'autre (utile pour traiter
+     * plusieurs pages avec la même instance d'Engine, voir
+     * YearBatchRunner) — penser à appeler terminate() une fois tous les
+     * appels à run() terminés pour libérer le worker et laisser le
+     * processus Node se terminer proprement.
+     */
     async run(date, pageNumber, imagePath, options = {}) {
 
         const context = new ProcessingContext();
@@ -50,6 +64,12 @@ export default class Engine {
         await this.pipeline.execute(context);
 
         return context;
+
+    }
+
+    async terminate() {
+
+        await this.ocrBlocksStep.terminate();
 
     }
 

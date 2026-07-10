@@ -1,4 +1,5 @@
 import { findGenreMarker } from "./genreKeywords.js";
+import { cutGarbledTail } from "../ocr/garbledText.js";
 
 const LEADING_TIME_PATTERN = /^([01]?\d|2[0-3])[.,]([0-5]\d)\s*/;
 
@@ -7,22 +8,32 @@ const EPISODE_PATTERN = /\s*\((\d{1,2})\s*\/\s*(\d{1,2})\)\s*$/;
 
 /**
  * Parse une entrée normalisée ("HH.MM texte...", voir splitIntoEntries) en
- * {startTime, title, subtitle, genre, rawText}. Voir docs/PARSING_RULES.md
- * pour le détail des règles.
+ * {startTime, title, subtitle, genre, unparsedTail, rawText}. Voir
+ * docs/PARSING_RULES.md pour le détail des règles.
+ *
+ * @param {string} entryText
+ * @param {string[]} [garbledAnchors] repères de zones mal reconnues (voir
+ *   ocr/garbledText.js). On coupe la partie mal reconnue AVANT de chercher
+ *   le titre/sous-titre/genre, pour ne pas laisser un mot-clé de genre
+ *   trouvé dans du texte parasite (ou appartenant à un autre programme
+ *   fusionné) polluer le résultat. La partie retirée est renvoyée dans
+ *   `unparsedTail`.
  */
-export default function parseProgramEntry(entryText) {
+export default function parseProgramEntry(entryText, garbledAnchors = []) {
 
     const timeMatch = entryText.match(LEADING_TIME_PATTERN);
 
     if (!timeMatch) {
 
-        const { title, subtitle } = extractEpisodeNumber(cleanFragment(entryText), "");
+        const { clean, tail } = cutGarbledTail(entryText, garbledAnchors);
+        const { title, subtitle } = extractEpisodeNumber(cleanFragment(clean), "");
 
         return {
             startTime: "",
             title,
             subtitle,
             genre: "",
+            unparsedTail: tail,
             rawText: entryText
         };
 
@@ -32,7 +43,9 @@ export default function parseProgramEntry(entryText) {
     const minute = timeMatch[2];
     const startTime = `${hour}:${minute}`;
 
-    const remainder = entryText.slice(timeMatch[0].length);
+    const rawRemainder = entryText.slice(timeMatch[0].length);
+
+    const { clean: remainder, tail } = cutGarbledTail(rawRemainder, garbledAnchors);
 
     const marker = findGenreMarker(remainder);
 
@@ -47,11 +60,17 @@ export default function parseProgramEntry(entryText) {
             cleanFragment(remainder.slice(marker.index + marker.length))
         );
 
+        // Pour un "Film", on ne renseigne pas le sous-titre (consigne
+        // explicite de Charles) : le titre reste nettoyé (numéro d'épisode
+        // retiré s'il y en avait un), mais rien n'est mis en sous-titre.
+        const finalSubtitle = marker.genre === "Film" ? "" : subtitle;
+
         return {
             startTime,
             title,
-            subtitle,
+            subtitle: finalSubtitle,
             genre: marker.genre,
+            unparsedTail: tail,
             rawText: entryText
         };
 
@@ -68,6 +87,7 @@ export default function parseProgramEntry(entryText) {
             title,
             subtitle,
             genre: "",
+            unparsedTail: tail,
             rawText: entryText
         };
 
@@ -83,6 +103,7 @@ export default function parseProgramEntry(entryText) {
         title,
         subtitle,
         genre: "",
+        unparsedTail: tail,
         rawText: entryText
     };
 
@@ -107,7 +128,13 @@ function extractEpisodeNumber(title, subtitle) {
     const cleanTitle = cleanFragment(title.slice(0, match.index));
 
     if (subtitle) {
-        return { title: cleanTitle, subtitle: `${subtitle} (${episode}/${total})` };
+        // On retire un point final avant d'ajouter "(N/M)" : cleanFragment
+        // préserve volontairement le point de fin de phrase pour un
+        // sous-titre normal ("...détective."), mais ici on va lui accoler
+        // "(3/6)" et "Wilkes. (3/6)" serait maladroit — Charles attend
+        // "Wilkes (3/6)".
+        const trimmedSubtitle = subtitle.replace(/\.\s*$/, "");
+        return { title: cleanTitle, subtitle: `${trimmedSubtitle} (${episode}/${total})` };
     }
 
     return { title: cleanTitle, subtitle: `Episode ${episode}/${total}` };
@@ -121,6 +148,11 @@ function extractEpisodeNumber(title, subtitle) {
 function cleanFragment(fragment) {
 
     return fragment
+        // Le pictogramme de notation ("▶▶▶") est mal OCRisé sous forme de
+        // "#" isolés (ex. "L'Affaire Thomas Crown # ##") : on les retire,
+        // où qu'ils apparaissent dans le fragment.
+        .replace(/#+/g, " ")
+        .replace(/\s{2,}/g, " ")
         .trim()
         .replace(/^[.,;:\s]+/, "")
         .replace(/[,;:\s]+$/, "")

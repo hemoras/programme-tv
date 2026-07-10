@@ -5,19 +5,43 @@ import Block from "../core/Block.js";
 
 export default class ConfigManager {
 
+    /**
+     * Charge la configuration (découpage des chaînes par page) applicable à
+     * `date` (format "YYYY-MM-DD").
+     *
+     * Les configurations sont regroupées par décennie plutôt que par année
+     * (un fichier config/periods/<décennie>.json, ex. "2000.json" pour
+     * 2000-2009), chacune contenant une liste de `periods` avec leurs
+     * propres startDate/endDate. Cela permet de représenter un changement
+     * de grille en cours d'année (ex. 31/03/2001) sans avoir à dupliquer la
+     * configuration entre deux fichiers annuels quand une période à cheval
+     * sur le 1er janvier reste identique. Une période à cheval sur une
+     * frontière de décennie doit en revanche être dupliquée dans les deux
+     * fichiers de décennie concernés (cas plus rare, accepté).
+     */
     static load(date) {
 
-        const year = date.substring(0, 4);
+        const year = Number(date.substring(0, 4));
+        const decade = Math.floor(year / 10) * 10;
 
-        const file = path.join("config", "periods", `${year}.json`);
+        const file = path.join("config", "periods", `${decade}.json`);
 
         if (!fs.existsSync(file)) {
-            throw new Error(`Aucune configuration trouvée pour ${year}`);
+            throw new Error(`Aucune configuration de décennie trouvée pour ${decade} (${file} introuvable).`);
         }
 
-        const config = fs.readJsonSync(file);
+        const { periods } = fs.readJsonSync(file);
 
-        return this.normalize(config);
+        const period = periods.find(p => p.startDate <= date && date <= p.endDate);
+
+        if (!period) {
+            throw new Error(
+                `Aucune période ne couvre la date ${date} dans ${file}. ` +
+                `Périodes disponibles : ${periods.map(p => `${p.startDate} → ${p.endDate}`).join(", ")}`
+            );
+        }
+
+        return this.normalize(period);
 
     }
 

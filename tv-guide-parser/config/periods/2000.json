@@ -1,0 +1,197 @@
+{
+    "periods": [
+        {
+            "name": "Tele7Jours 2001 (jusqu'au 30 mars)",
+            "startDate": "2001-01-01",
+            "endDate": "2001-03-30",
+
+            "rowSeparator": "line",
+
+            "pages": {
+                "1": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "RTL 9" },
+                        { "name": "TMC" },
+                        { "name": "Paris Première" },
+                        { "name": "Planète" },
+                        { "name": "Voyage" },
+                        { "name": "TF6" },
+                        { "name": "TV5" },
+                        { "name": "Téva" },
+                        { "name": "Histoire" },
+                        { "name": "Odyssée" }
+                    ]
+                },
+
+                "2": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Ciné Cinémas 1" },
+                        { "name": "Ciné Cinémas 2" },
+                        { "name": "Ciné Cinémas 3" },
+                        { "name": "Cinéstar 1" },
+                        { "name": "Cinéstar 2" },
+                        { "name": "Escales" },
+                        { "name": "TCM" },
+                        { "name": "Ciné Classics" },
+                        { "name": "Cinéfaz" },
+                        { "name": "Cinétoile" }
+                    ]
+                },
+
+                "3": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Canal J" },
+                        { "name": "Disney Channel" },
+                        { "name": "Série Club" },
+                        { "name": "13ème Rue" },
+                        { "name": "Canal Jimmy" },
+                        { "name": "Fox Kids" },
+                        { "name": "Télétoon" },
+                        { "name": "Festival" },
+                        { "name": "Comédie !" },
+                        { "name": "AB1" },
+                        { "name": "Animaux" }
+                    ]
+                },
+
+                "4": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "MCM" },
+                        { "name": "Canal+ Jaune" },
+                        { "name": "Canal+ Bleu" },
+                        { "name": "Canal+ Vert" },
+                        { "name": "Eurosport" },
+                        { "name": "M6 Music" },
+                        { "name": "Mezzo" },
+
+                        {
+                            "name": "Belgique et Suisse",
+                            "type": "ignored"
+                        },
+                        {
+                            "name": "Chaines Info",
+                            "type": "ignored"
+                        },
+
+                        {
+                            "name": "Pathé Sport",
+                            "rowSpan": 2
+                        },
+                        { "name": "MTV" },
+                        { "name": "Muzzik" },
+                        { "name": "Fun TV" },
+                        { "name": "TV Breizh" }
+                    ]
+                }
+            }
+        },
+
+        {
+            "name": "Tele7Jours 2001 (31 mars au 29 juin)",
+            "startDate": "2001-03-31",
+            "endDate": "2001-06-29",
+
+            "rowSeparator": "line",
+
+            "pages": {
+                "1": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "La Cinquième" },
+                        { "name": "arte" },
+                        { "name": "RTL 9" },
+                        { "name": "TMC" },
+                        { "name": "Voyage" },
+                        { "name": "TF6" },
+                        { "name": "TV5" },
+                        { "name": "Téva" },
+                        { "name": "Histoire" },
+                        { "name": "Odyssée" }
+                    ]
+                },
+
+                "2": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Eurosport" },
+                        { "name": "TF6" },
+                        { "name": "Paris Première" },
+                        { "name": "Planète" },
+                        { "name": "Voyage" },
+                        { "name": "Pathé Sport" },
+                        { "name": "Téva" },
+                        { "name": "Histoire" },
+                        { "name": "Odyssée" },
+                        { "name": "Escales" }
+                    ]
+                },
+
+                "3": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Ciné Cinémas 1" },
+                        { "name": "Ciné Cinémas 2" },
+                        { "name": "Ciné Cinémas 3" },
+                        { "name": "Cinéstar 1" },
+                        { "name": "Cinéstar 2" },
+                        {
+                            "name": "Kiosque",
+                            "type": "ignored"
+                        },
+                        { "name": "TCM" },
+                        { "name": "Ciné Classics" },
+                        { "name": "Cinéfaz" },
+                        { "name": "Cinétoile" }
+                    ]
+                },
+
+                "4": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Canal J" },
+                        { "name": "Disney Channel" },
+                        { "name": "Série Club" },
+                        { "name": "13ème Rue" },
+                        { "name": "Canal Jimmy" },
+                        { "name": "Fox Kids" },
+                        { "name": "Télétoon" },
+                        { "name": "Festival" },
+                        { "name": "AB1" },
+                        { "name": "Equidia" },
+                        { "name": "Cartoon Network" }
+                    ]
+                },
+
+                "5": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Comédie !" },
+                        { "name": "MCM" },
+                        { "name": "TV5" },
+                        { "name": "RTBF 1" },
+                        { "name": "TSR 1" },
+                        { "name": "MTV" },
+                        { "name": "Mezzo" },
+                        {
+                            "name": "Chaines infos",
+                            "type": "ignored"
+                        },
+                        { "name": "RTBF 2" },
+                        { "name": "TSR 2" },
+                        { "name": "M6 Musique" },
+                        { "name": "Muzzik" },
+                        { "name": "TV Breizh" },
+                        {
+                            "name": "Allemagne-Italie",
+                            "type": "ignored"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

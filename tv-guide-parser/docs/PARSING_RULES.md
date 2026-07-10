@@ -158,6 +158,17 @@ prochaine heure) :
    Si le texte contient explicitement "Magazine" ou "Série", `Genre` prend
    respectivement la valeur `"Magazine"` ou `"Série"`.
 
+   **Cas particulier "Film" : le Sous-titre reste vide.** Contrairement aux
+   autres genres, quand `Genre = "Film"`, on ne renseigne pas le Sous-titre
+   (consigne de Charles, 10 juillet 2026) — le réalisateur/casting/résumé
+   qui suit habituellement n'y est pas conservé. Le Titre est tout de même
+   nettoyé normalement (numéro d'épisode entre parenthèses retiré s'il y en
+   avait un, mais sans être déplacé en "Episode N/M" comme pour les autres
+   genres, puisque le Sous-titre reste vide) :
+   ```
+   RTL 9;22:25;L'Affaire Thomas Crown;;Film
+   ```
+
    Dans tous les autres cas (aucun mot-clé reconnu, ou mot-clé hors liste
    comme "Feuilleton", "Divertissement", "Documentaire", "Journal", "Jeu"),
    `Genre` reste vide.
@@ -196,7 +207,10 @@ effectivement utilisé comme genre/format.
 ## Cas non couverts / limites connues
 
 - Le pictogramme de notation (ex. "▶▶▶") est mal reconnu par l'OCR sous des
-  formes imprévisibles ("77", "# ##"...) et n'est pas filtré à ce stade.
+  formes imprévisibles ("77", "# ##"...). Les "#" isolés sont retirés du
+  Titre/Sous-titre (10 juillet 2026, voir `cleanFragment` dans
+  `parseProgramEntry.js`) ; les autres formes (ex. "77") ne sont pas
+  filtrées à ce stade.
 - L'heure imprimée en blanc sur fond coloré (dans certains encarts "prime
   time") n'est pas toujours lue correctement par l'OCR (voir limitations
   connues de l'étape OCR) ; le programme correspondant peut donc avoir une
@@ -207,6 +221,49 @@ effectivement utilisé comme genre/format.
 - Les exemples de type sport ("PSG - Monaco") n'ont pas encore été
   rencontrés dans un échantillon réel ; la règle est documentée par
   anticipation mais pas testée.
+
+- **Encarts fusionnés dont l'heure n'a pas pu être lue : isolés du CSV
+  propre (résolu partiellement, 10 juillet 2026).** Quand l'heure d'un
+  encart n'est pas reconnue (cf. limitation ci-dessus), son contenu se
+  retrouvait fusionné, sans séparateur, dans le Sous-titre du programme
+  précédent — polluant une ligne autrement propre avec plusieurs
+  centaines de caractères de texte parasite et/ou appartenant à un tout
+  autre programme (voir `src/ocr/garbledText.js`).
+
+  Détection : la confiance mot-par-mot renvoyée par Tesseract (TSV) permet
+  de repérer une zone anormalement mal reconnue (plusieurs mots consécutifs
+  sous 40% de confiance). Le premier mot suffisamment distinctif de cette
+  zone (pas un mot français courant type "de", "des", "le" — qui a
+  presque toujours une autre occurrence bien lue ailleurs dans le bloc, ce
+  qui causerait une coupe au mauvais endroit ; pas un mot de moins de 3
+  lettres sauf s'il contient un chiffre/symbole ou est tout en majuscules)
+  sert de repère. Tout ce qui suit ce repère, dans la même entrée, est
+  retiré du Sous-titre et déplacé en fin de fichier CSV, en texte brut,
+  sans tenter de le structurer en colonnes (précédé d'un commentaire `#`
+  et de l'heure du programme précédent, pour garder une trace) :
+
+  ```
+  Planète;20:00;Voyage en Antarctique;Les Vestiges de la station Wilkes (3/6);
+  ...
+  # Segments non reconnus (heure illisible, fusionnés avec le programme précédent) :
+  # [après 20:00] 10% {1 document re il A 0% ... constructions.
+  ```
+
+  Limites connues de cette détection (acceptées comme compromis
+  raisonnable — rien n'est perdu, tout reste tracé en fin de fichier) :
+  - la coupe n'est pas toujours pile au bon endroit : quelques mots
+    parasites courts (2-3 caractères) peuvent occasionnellement rester
+    dans le Sous-titre juste avant la coupe, si leur confiance OCR
+    individuelle n'était pas assez basse pour être repérée ;
+  - si le texte mal reconnu se trouve *au milieu* du synopsis d'un même
+    programme (pas un second programme fusionné), la coupe retire aussi
+    la suite légitime du synopsis (déplacée dans les segments non reconnus
+    plutôt que conservée dans le Sous-titre) — cas plus rare, observé une
+    fois sur l'échantillon (Odyssée, 19.55) ;
+  - un mot-clé de genre (Film/Magazine/Série) trouvé juste avant la coupe
+    peut occasionnellement être erronément attribué au programme
+    précédent s'il appartenait en réalité à l'encart fusionné (observé une
+    fois sur l'échantillon, TMC 20.35).
 
 - **Encarts thématiques sans heure propre (ex. "Long courrier"), différé.**
   Certaines chaînes (ex. Voyage) intercalent, sans heure de diffusion
