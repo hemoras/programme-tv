@@ -10,6 +10,7 @@ import LoadConfigStep from "../pipeline/steps/LoadConfigStep.js";
 import LoadImageStep from "../pipeline/steps/LoadImageStep.js";
 import DetectBlocksStep from "../pipeline/steps/DetectBlocksStep.js";
 import CropBlocksStep from "../pipeline/steps/CropBlocksStep.js";
+import SaveChannelImagesStep from "../pipeline/steps/SaveChannelImagesStep.js";
 import OcrBlocksStep from "../pipeline/steps/OcrBlocksStep.js";
 import BuildChannelsStep from "../pipeline/steps/BuildChannelsStep.js";
 import ParseProgramsStep from "../pipeline/steps/ParseProgramsStep.js";
@@ -28,6 +29,7 @@ export default class Engine {
             .add(new LoadImageStep())
             .add(new DetectBlocksStep())
             .add(new CropBlocksStep())
+            .add(new SaveChannelImagesStep())
             .add(this.ocrBlocksStep)
             .add(new BuildChannelsStep())
             .add(new ParseProgramsStep())

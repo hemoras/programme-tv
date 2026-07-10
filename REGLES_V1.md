@@ -1,0 +1,9 @@
+- pas de chaînes HD
+- pas de +1
+- pas de mosaïques
+- Kiosque = conservé
+- À la carte = conservé
+- chaînes de service = au cas par cas
+- chaînes locales = exclues
+- français langue principale ou éditoriale significative
+- renommage = ancienne chaîne terminée la veille
