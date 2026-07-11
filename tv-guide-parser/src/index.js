@@ -25,6 +25,8 @@ program
     .argument("[image]", "Image à analyser")
     .option("-d, --debug", "Mode debug")
     .option("-y, --year <année>", "Traite toutes les pages de l'année trouvées dans PAGES_DIR")
+    .option("--from <date>", "Avec --year : date de début (YYYY-MM-DD), incluse (défaut : 1er janvier)")
+    .option("--to <date>", "Avec --year : date de fin (YYYY-MM-DD), incluse (défaut : 31 décembre)")
     .parse();
 
 const options = program.opts();
@@ -40,7 +42,7 @@ console.log();
 
 if (options.year) {
 
-    await runYear(options.year);
+    await runYear(options.year, { from: options.from, to: options.to });
 
 } else if (image) {
 
@@ -142,7 +144,7 @@ async function runSingleImage(image, debug) {
 
 }
 
-async function runYear(year) {
+async function runYear(year, { from, to } = {}) {
 
     const pagesDir = process.env.PAGES_DIR;
 
@@ -162,7 +164,7 @@ async function runYear(year) {
     let results;
 
     try {
-        results = await runner.run(year, pagesDir);
+        results = await runner.run(year, pagesDir, { from, to });
     } catch (error) {
         console.log(chalk.red(error.message));
         process.exit(1);

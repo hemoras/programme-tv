@@ -97,6 +97,11 @@ export default class GridDetector {
         // Largeur minimale (px) d'une colonne réelle (filtre les faux positifs)
         this.minColumnWidth = options.minColumnWidth ?? 20;
 
+        // Une colonne de bord (première ou dernière) plus étroite que
+        // (médiane des autres colonnes × ce ratio) est écartée : voir
+        // dropAnomalousEdgeColumns().
+        this.edgeColumnWidthRatio = options.edgeColumnWidthRatio ?? 0.5;
+
         // Stratégie de séparation de ligne par défaut, utilisée si aucune
         // n'est précisée par la configuration de la période.
         this.defaultRowSeparator = options.rowSeparator ?? "line";
@@ -118,6 +123,12 @@ export default class GridDetector {
         // Densité d'encre minimale dans cette fenêtre pour valider le trait
         // comme un vrai séparateur de chaîne plutôt qu'un filet interne.
         this.bannerDensityThreshold = options.bannerDensityThreshold ?? 0.4;
+        // Écart minimal (densité après - densité avant) exigé en plus du
+        // seuil absolu ci-dessus : un vrai séparateur contraste avec le
+        // texte de programme normal qui le précède, contrairement à un
+        // trait interne au bandeau de la première chaîne d'une colonne
+        // (dense des deux côtés, cf. detectRowCutsLine).
+        this.bannerContrastThreshold = options.bannerContrastThreshold ?? 0.15;
         // Distance (px) sous laquelle deux traits/coupures retenus sont
         // considérés comme la même frontière (ex. double filet d'un
         // bandeau) et fusionnés en un seul.
@@ -126,7 +137,17 @@ export default class GridDetector {
         // --- Paramètres partagés par "whitespace" et le regroupement inter-colonnes de "line" ---
         this.rowNoiseTolerance = options.rowNoiseTolerance ?? 2;
         this.minRowGap = options.minRowGap ?? 8;
-        this.rowClusterTolerance = options.rowClusterTolerance ?? 15;
+        // Tolérance (px) pour regrouper entre colonnes des traits qui
+        // marquent la même frontière physique : un même trait de séparation
+        // peut être détecté à des Y légèrement différents d'une colonne à
+        // l'autre (bruit de scan, léger travers de la page). Une tolérance
+        // trop faible peut scinder un même trait en plusieurs petits
+        // groupes à faible couverture, qui passent alors sous le seuil
+        // minCoverage et sont écartés à tort (cas réel observé :
+        // Page4/2001-01-02, séparateur rangée 2/3 détecté à 2837 sur 3
+        // colonnes et 2865 sur 2 colonnes distinctes au lieu d'un seul
+        // groupe à 4 colonnes — voir docs/PARSING_RULES.md).
+        this.rowClusterTolerance = options.rowClusterTolerance ?? 30;
 
     }
 
@@ -267,7 +288,50 @@ export default class GridDetector {
 
         }
 
-        return columns;
+        return this.dropAnomalousEdgeColumns(columns);
+
+    }
+
+    /**
+     * Écarte une colonne de bord (première ou dernière) nettement plus
+     * étroite que les autres. Sur ce magazine, les colonnes de chaînes
+     * d'une même page ont une largeur comparable (grille régulière) ; une
+     * colonne très étroite en bord de page est presque toujours un
+     * artefact de scan plutôt qu'une vraie chaîne — ex. le bandeau
+     * vertical du jour ("2 janvier mardi", fond coloré sur toute la
+     * hauteur) en marge droite de Page4/2001-01-02, qui crée une fine
+     * gouttière puis une "colonne" de ~180px alors que les colonnes de
+     * chaînes font ~375px (voir docs/PARSING_RULES.md). Sans ce filtre,
+     * la colonne fantôme fausse le calcul du nombre de rangées
+     * (cellCount / nombre de colonnes) et décale l'affectation des blocs
+     * de configuration aux zones détectées.
+     */
+    dropAnomalousEdgeColumns(columns) {
+
+        if (columns.length <= 2) return columns; // pas assez de colonnes pour juger d'une anomalie
+
+        const isAnomalous = (col, others) => {
+
+            if (others.length === 0) return false;
+
+            const widths = others.map(c => c.width).sort((a, b) => a - b);
+            const median = widths[Math.floor(widths.length / 2)];
+
+            return col.width < median * this.edgeColumnWidthRatio;
+
+        };
+
+        let result = columns;
+
+        if (isAnomalous(result[result.length - 1], result.slice(0, -1))) {
+            result = result.slice(0, -1);
+        }
+
+        if (result.length > 2 && isAnomalous(result[0], result.slice(1))) {
+            result = result.slice(1);
+        }
+
+        return result;
 
     }
 
@@ -297,9 +361,18 @@ export default class GridDetector {
      * les rangées. Recherche colonne par colonne (un vrai trait de
      * séparation traverse toute la largeur DU BLOC, contrairement à la
      * bordure d'un encart qui a des marges), regroupe les candidats entre
-     * colonnes, puis ne garde que ceux immédiatement suivis d'un bandeau de
-     * nom de chaîne (forte densité d'encre soutenue) pour écarter les
-     * filets purement internes à un bloc.
+     * colonnes, puis ne garde que ceux qui marquent une VRAIE frontière
+     * entre deux chaînes : la densité d'encre juste après le trait doit
+     * être nettement supérieure à celle juste avant (le bandeau de nom de
+     * chaîne, en couleur/gras, contraste avec le texte de programme normal
+     * qui le précède). Ce critère de contraste écarte à la fois les filets
+     * purement internes à un bloc (peu d'encre avant ET après, ex. bordure
+     * d'un encadré surligné) ET un piège plus subtil : un trait interne au
+     * bandeau de nom de LA PREMIÈRE chaîne d'une colonne elle-même (encre
+     * dense avant ET après, puisqu'on est déjà dans le bandeau des deux
+     * côtés du trait) — une simple densité "après" élevée ne suffit pas à
+     * le distinguer d'un vrai séparateur (cas réel observé : Page2/2001,
+     * voir docs/PARSING_RULES.md).
      */
     detectRowCutsLine(data, width, height, columns, rowsCount) {
 
@@ -342,8 +415,15 @@ export default class GridDetector {
 
         const accepted = clusters
             .filter(c => c.columnCoverage >= minCoverage)
-            .filter(c => this.bannerDensityAfter(data, width, height, columns, c.mid) >= this.bannerDensityThreshold)
-            .map(c => c.mid)
+            .filter(c => {
+
+                const after = this.bannerDensityAfter(data, width, height, columns, c.mid);
+                const before = this.bannerDensityBefore(data, width, height, columns, c.mid);
+
+                return after >= this.bannerDensityThreshold && (after - before) >= this.bannerContrastThreshold;
+
+            })
+            .map(c => Math.round(c.mid))
             .sort((a, b) => a - b);
 
         return this.mergeNearbyPoints(accepted, this.rowLineMergeGap);
@@ -360,6 +440,28 @@ export default class GridDetector {
 
         const yStart = Math.round(y) + 3; // saute le trait lui-même
         const yEnd = Math.min(height, yStart + this.bannerWindowHeight);
+
+        return this.averageInkDensity(data, width, columns, yStart, yEnd);
+
+    }
+
+    /**
+     * Symétrique de bannerDensityAfter() : densité d'encre juste AVANT le
+     * trait candidat. Sert à vérifier un contraste avant/après (voir
+     * detectRowCutsLine) plutôt qu'une simple densité absolue, qui à elle
+     * seule ne distingue pas un vrai séparateur d'un trait interne au
+     * bandeau de la première chaîne d'une colonne (dense des deux côtés).
+     */
+    bannerDensityBefore(data, width, height, columns, y) {
+
+        const yEnd = Math.round(y) - 3;
+        const yStart = Math.max(0, yEnd - this.bannerWindowHeight);
+
+        return this.averageInkDensity(data, width, columns, yStart, yEnd);
+
+    }
+
+    averageInkDensity(data, width, columns, yStart, yEnd) {
 
         let ink = 0;
         let total = 0;
@@ -407,7 +509,7 @@ export default class GridDetector {
             .filter(c => c.columnCoverage >= minCoverage)
             .sort((a, b) => b.columnCoverage - a.columnCoverage || a.mid - b.mid)
             .slice(0, rowsCount - 1)
-            .map(c => c.mid)
+            .map(c => Math.round(c.mid))
             .sort((a, b) => a - b);
 
         return this.mergeNearbyPoints(sorted, this.rowLineMergeGap);

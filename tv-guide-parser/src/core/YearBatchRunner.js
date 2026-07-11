@@ -5,6 +5,7 @@ import chalk from "chalk";
 import Engine from "./Engine.js";
 
 const FILENAME_PATTERN = /^(\d{4}-\d{2}-\d{2})-Page(\d+)\.(jpg|jpeg)$/i;
+const DATE_PATTERN = /^\d{4}-\d{2}-\d{2}$/;
 
 /**
  * Traite toutes les pages d'une année en une fois : scanne
@@ -21,7 +22,15 @@ const FILENAME_PATTERN = /^(\d{4}-\d{2}-\d{2})-Page(\d+)\.(jpg|jpeg)$/i;
  */
 export default class YearBatchRunner {
 
-    async run(year, pagesDir) {
+    /**
+     * @param {number|string} year
+     * @param {string} pagesDir
+     * @param {{from?: string, to?: string}} [options] bornes optionnelles
+     *   (YYYY-MM-DD, incluses) pour ne traiter qu'une plage de dates de
+     *   l'année — ex. reprendre un lot interrompu sans tout retraiter.
+     *   Par défaut, toute l'année (1er janvier au 31 décembre).
+     */
+    async run(year, pagesDir, options = {}) {
 
         const yearDir = path.join(pagesDir, String(year));
 
@@ -29,15 +38,39 @@ export default class YearBatchRunner {
             throw new Error(`Dossier introuvable : ${yearDir}`);
         }
 
+        const from = options.from ?? `${year}-01-01`;
+        const to = options.to ?? `${year}-12-31`;
+
+        if (!DATE_PATTERN.test(from)) {
+            throw new Error(`--from invalide : "${from}" (format attendu YYYY-MM-DD).`);
+        }
+
+        if (!DATE_PATTERN.test(to)) {
+            throw new Error(`--to invalide : "${to}" (format attendu YYYY-MM-DD).`);
+        }
+
+        if (from > to) {
+            throw new Error(`--from (${from}) est postérieur à --to (${to}).`);
+        }
+
         const files = fs.readdirSync(yearDir)
             .filter(name => FILENAME_PATTERN.test(name))
+            .filter(name => {
+                const date = name.match(FILENAME_PATTERN)[1];
+                return date >= from && date <= to;
+            })
             .sort();
 
         if (files.length === 0) {
-            throw new Error(`Aucune page trouvée dans ${yearDir} (nom attendu : YYYY-MM-DD-PageN.jpg).`);
+            throw new Error(
+                `Aucune page trouvée dans ${yearDir} entre ${from} et ${to} ` +
+                `(nom attendu : YYYY-MM-DD-PageN.jpg).`
+            );
         }
 
-        console.log(chalk.cyan(`${files.length} page(s) trouvée(s) pour ${year} dans ${yearDir}`));
+        const range = (options.from || options.to) ? ` entre ${from} et ${to}` : "";
+
+        console.log(chalk.cyan(`${files.length} page(s) trouvée(s) pour ${year}${range} dans ${yearDir}`));
         console.log();
 
         const engine = new Engine();

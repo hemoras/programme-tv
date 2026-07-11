@@ -29,15 +29,10 @@ export default class CropBlocksStep extends PipelineStep {
 
             index++;
 
-            const { x, y, width, height } = block.bounds;
+            const extract = this.clampBounds(block.bounds, page.image);
 
             block.image = await sharp(page.imagePath)
-                .extract({
-                    left: Math.round(x),
-                    top: Math.round(y),
-                    width: Math.round(width),
-                    height: Math.round(height)
-                })
+                .extract(extract)
                 .toBuffer();
 
             if (context.debug) {
@@ -52,6 +47,34 @@ export default class CropBlocksStep extends PipelineStep {
             }
 
         }
+
+    }
+
+    /**
+     * Convertit block.bounds (potentiellement non entier, ex. issu d'une
+     * rangée partagée entre plusieurs bandes) en région d'extraction sharp
+     * valide : arrondit les bords gauche/haut puis dérive largeur/hauteur à
+     * partir des bords arrondis (plutôt que d'arrondir largeur/hauteur
+     * indépendamment, ce qui peut faire dépasser l'image de 1px si les
+     * arrondis vont dans des sens opposés — cf. bug réel sur
+     * Page4/2001-01-02, voir docs/PARSING_RULES.md), et referme la région
+     * dans les limites réelles de l'image (filet de sécurité en cas de
+     * géométrie amont malgré tout incohérente, pour ne pas interrompre tout
+     * le traitement de la page pour un seul bloc).
+     */
+    clampBounds(bounds, image) {
+
+        const left = Math.max(0, Math.round(bounds.x));
+        const top = Math.max(0, Math.round(bounds.y));
+        const right = Math.min(image.width, Math.round(bounds.x + bounds.width));
+        const bottom = Math.min(image.height, Math.round(bounds.y + bounds.height));
+
+        return {
+            left,
+            top,
+            width: Math.max(1, right - left),
+            height: Math.max(1, bottom - top)
+        };
 
     }
 
