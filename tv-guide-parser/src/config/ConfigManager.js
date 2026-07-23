@@ -41,11 +41,11 @@ export default class ConfigManager {
             );
         }
 
-        return this.normalize(period);
+        return this.normalize(period, date);
 
     }
 
-    static normalize(config) {
+    static normalize(config, date) {
 
         const normalized = structuredClone(config);
 
@@ -53,11 +53,39 @@ export default class ConfigManager {
 
             const page = normalized.pages[pageNumber];
 
-            page.blocks = page.blocks.map(block => new Block(block));
+            page.blocks = page.blocks.map(block => new Block(this.resolveBlock(block, date)));
 
         }
 
         return normalized;
+
+    }
+
+    /**
+     * Résout un bloc de configuration pour `date`. La plupart des blocs sont
+     * fixes sur toute la période et sont retournés tels quels. Un bloc peut
+     * en revanche varier en cours de période (ex. la chaîne "AB Moteurs"
+     * devenant "Equidia" le 10/12/2001 — voir config/periods/2000.json) : il
+     * porte alors un tableau `versions` de `{ name, from, to }` à la place
+     * de `name`, et on sélectionne la version dont l'intervalle [from, to]
+     * couvre `date`.
+     */
+    static resolveBlock(block, date) {
+
+        if (!block.versions) {
+            return block;
+        }
+
+        const version = block.versions.find(v => v.from <= date && date <= v.to);
+
+        if (!version) {
+            throw new Error(
+                `Aucune version ne couvre la date ${date} pour le bloc versionné ` +
+                `${block.versions.map(v => `${v.name} (${v.from} → ${v.to})`).join(", ")}.`
+            );
+        }
+
+        return { ...block, ...version };
 
     }
 

@@ -91,9 +91,9 @@
         },
 
         {
-            "name": "Tele7Jours 2001 (31 mars au 29 juin)",
+            "name": "Tele7Jours 2001 (31 mars au 19 octobre)",
             "startDate": "2001-03-31",
-            "endDate": "2001-06-29",
+            "endDate": "2001-10-19",
 
             "rowSeparator": "line",
 
@@ -104,13 +104,7 @@
                         { "name": "La Cinquième" },
                         { "name": "arte" },
                         { "name": "RTL 9" },
-                        { "name": "TMC" },
-                        { "name": "Voyage" },
-                        { "name": "TF6" },
-                        { "name": "TV5" },
-                        { "name": "Téva" },
-                        { "name": "Histoire" },
-                        { "name": "Odyssée" }
+                        { "name": "TMC" }
                     ]
                 },
 
@@ -170,6 +164,110 @@
                     "layout": "multi-channel",
                     "blocks": [
                         { "name": "Comédie !" },
+                        { "name": "MCM" },
+                        { "name": "TV5" },
+                        { "name": "RTBF 1" },
+                        { "name": "TSR 1" },
+                        { "name": "MTV" },
+                        { "name": "Mezzo" },
+                        {
+                            "name": "Chaines infos",
+                            "type": "ignored"
+                        },
+                        { "name": "RTBF 2" },
+                        { "name": "TSR 2" },
+                        { "name": "M6 Musique" },
+                        { "name": "Muzzik" },
+                        { "name": "TV Breizh" },
+                        {
+                            "name": "Allemagne-Italie",
+                            "type": "ignored"
+                        }
+                    ]
+                }
+            }
+        },
+
+        {
+            "name": "Tele7Jours 2001 (20 octobre au 31 décembre)",
+            "startDate": "2001-10-20",
+            "endDate": "2001-12-31",
+
+            "rowSeparator": "line",
+
+            "pages": {
+                "1": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "La Cinquième" },
+                        { "name": "arte" },
+                        { "name": "RTL 9" },
+                        { "name": "TMC" }
+                    ]
+                },
+
+                "2": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Eurosport" },
+                        { "name": "TF6" },
+                        { "name": "Paris Première" },
+                        { "name": "Planète" },
+                        { "name": "Voyage" },
+                        { "name": "Pathé Sport" },
+                        {
+                            "versions": [
+                                { "name": "AB Moteurs", "from": "2001-10-20", "to": "2001-12-09" },
+                                { "name": "Equidia", "from": "2001-12-10", "to": "2001-12-31" }
+                            ]
+                        },
+                        {
+                            "versions": [
+                                { "name": "Equidia", "from": "2001-10-20", "to": "2001-12-09" },
+                                { "name": "Match TV", "from": "2001-12-10", "to": "2001-12-31" }
+                            ]
+                        },
+                        { "name": "Téva" },
+                        { "name": "Histoire" }
+                    ]
+                },
+
+                "3": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "National Geographic" },
+                        { "name": "Ciné Cinémas 1" },
+                        { "name": "TCM" },
+                        { "name": "TPS Star" },
+                        { "name": "Cinéfaz" },
+                        { "name": "Odyssée" },
+                        { "name": "Ciné Cinémas 2 et 3" },
+                        { "name": "Ciné Classics" },
+                        { "name": "Cinéstar 1 et 2" },
+                        { "name": "Cinétoile" }
+                    ]
+                },
+
+                "4": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "Canal J" },
+                        { "name": "Disney Channel" },
+                        { "name": "Télétoon" },
+                        { "name": "Canal Jimmy" },
+                        { "name": "Série Club" },
+                        { "name": "Cartoon Network" },
+                        { "name": "Fox Kids" },
+                        { "name": "AB1" },
+                        { "name": "Comédie !" },
+                        { "name": "Festival" }
+                    ]
+                },
+
+                "5": {
+                    "layout": "multi-channel",
+                    "blocks": [
+                        { "name": "13ème Rue" },
                         { "name": "MCM" },
                         { "name": "TV5" },
                         { "name": "RTBF 1" },

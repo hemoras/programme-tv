@@ -8,7 +8,8 @@
     "start": "node src/index.js",
     "dev": "node src/index.js",
     "test": "node --test",
-    "generate-chaines": "node scripts/generateChainesMapping.js"
+    "generate-chaines": "node scripts/generateChainesMapping.js",
+    "index-pdf": "node src/indexPdfPages.js"
   },
   "keywords": [
     "tv",
@@ -19,14 +20,16 @@
   "author": "",
   "license": "MIT",
   "engines": {
-    "node": ">=22.2.0"
+    "node": ">=22.13.0"
   },
   "dependencies": {
+    "@napi-rs/canvas": "^1.0.2",
     "@tesseract.js-data/fra": "^1.0.0",
     "chalk": "^5.4.1",
     "commander": "^13.1.0",
     "fs-extra": "^11.3.0",
     "glob": "^11.0.1",
+    "pdfjs-dist": "^6.1.200",
     "sharp": "^0.33.5",
     "tesseract.js": "^7.0.0"
   }
